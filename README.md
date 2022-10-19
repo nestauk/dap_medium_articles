@@ -1,4 +1,4 @@
-# The code behind [Data Analytics at Nesta](https://medium.com/data-analytics-at-nesta) Medium Articles :wave:
+# Code behind [Data Analytics at Nesta](https://medium.com/data-analytics-at-nesta) Medium Articles :wave:
 
 This repo contains code behind articles published on [Medium's Data Analytics at Nesta](https://medium.com/data-analytics-at-nesta). We're going to be adding directories with code whose original purpose is to serve a medium blog. Each directory will refer to a medium article and will contain everything you'll need to replicate the code behind the blog. These will contain updating notebooks, but instead are helpful stand alone tutorials about the tips and tricks we've learned doing data science for social good. 
 
