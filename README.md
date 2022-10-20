@@ -9,7 +9,7 @@ This repository is to store code for Medium articles written by Nesta's Data Ana
 ## ❓ Is this the right place for my project? 
 
 1. If the original purpose of the code was to serve a Medium blog, it should live in this repo.
-2. If the blog is referencing code from a project repo, then add a link to that in the medium repo readme
+2. If the blog is referencing code from a project repo, then add a link to that in the Directory section of this README.
 3. If the code you've made also provides material for an internal tutorial then it's arguable that it should live in its own place, as there's a chance it will get updated.
 
 Long story short - if you're not going to update the code and it's simply to compliment an article, this is the repo for you! The idea is that the projects should be self-contained, so think Google Co-lab style code sharing.  
