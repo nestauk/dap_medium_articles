@@ -19,7 +19,7 @@ Long story short - if you're not going to update the code and it's simply to com
 **< Project name (with link to sub-directory) >**
 < Short description of project and links to any key resources >
 
-**[spancat tutorial]**
+**[spancat tutorial](https://github.com/nestauk/dap_medium_articles/tree/dev/spancat_tutorial)**
 A tutorial to train spaCy's spancat component without using config based training. Read the Medium article here and follow along with the jupyter notebook here. 
 
 ## 🎮 User guidelines
