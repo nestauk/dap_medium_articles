@@ -16,17 +16,13 @@ Long story short - if you're not going to update the code and it's simply to com
 
 ## 📖 Directory
 
-**< Project name (with link to sub-directory) >**
-< Short description of project and links to any key resources >
-
 **[spancat tutorial](https://github.com/nestauk/dap_medium_articles/tree/dev/spancat_tutorial)**
 A tutorial to train spaCy's spancat component without using config based training. Read the [Medium article here](https://medium.com/p/992024d047c2/edit) and follow along with the [jupyter notebook here](https://github.com/nestauk/dap_medium_articles/blob/dev/spancat_tutorial/spancat_training.ipynb). 
 
 ## 🎮 User guidelines
 
 1. Use the directory above to find the code behind an article that you are looking for.
-2. Clone this repository.
-3. Follow the code behind the article README for any environment set up (if relevant). 
+2. Navigate to the sub directory of the post you're interested in and checkout the readme for running instructions.
 
 ## 📝  Contributor guidelines
 
