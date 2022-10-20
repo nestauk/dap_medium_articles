@@ -8,7 +8,7 @@ This repository is to store code for Medium articles written by Nesta's Data Ana
 
 ## ❓ Is this the right place for my project? 
 
-1. If the original purpose of the code was to serve a medium blog, it should live in the medium repo. The readme of that repo should be a sort of table of contents of code used in blogs.
+1. If the original purpose of the code was to serve a Medium blog, it should live in this repo.
 2. If the blog is referencing code from a project repo, then add a link to that in the medium repo readme
 3. If the code you've made also provides material for an internal tutorial then it's arguable that it should live in its own place, as there's a chance it will get updated.
 
