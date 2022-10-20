@@ -16,7 +16,6 @@ Long story short - if you're not going to update the code and it's simply to com
 
 ## 📖 Directory
 
-The structure of this directory is as follows:
 **< Project name (with link to sub-directory) >**
 < Short description of project and links to any key resources >
 
@@ -33,20 +32,20 @@ A tutorial to train spaCy's spancat component without using config based trainin
 
 To add a new article repo to this repository:
 
-1. Determine whether this is the right place for the work. See Is this the right place for my project? 
+1. Determine whether this is the right place for the work. See [❓ Is this the right place for my project?](https://github.com/nestauk/dap_medium_articles/tree/spancat#-is-this-the-right-place-for-my-project) 
 2. Create an issue for the article. For example, _spancat_.
 3. Create a new branch from `dev` and check it out with `git checkout -b <issue number>_<article_name>`
 4. Create a subdirectory for this article.
 5. Write and commit all code, data and documentation inside this sub-directory. Make sure to add a `README.md`.
-6. Once development is finished, add the name and description of the exploration to the Directory above.
+6. Once development is finished, add the name and description of the article to the Directory above. Don't forget to add a link to the Medium article once it's been published.
 7. Create a pull request into `dev`.
 
 When writing your article, the following requirements must be met.
 
 **👍 Development standards**
 - Adhere to the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
-- All requirements to run exploratory projects should be independent and defined within the sub-directory (e.g. in a `requirements.txt` or `environment.yml`). Again, you may not want to have a `requirements.txt` and instead contain it all in a notebook or google colab.
-- Add descriptions of what is happening in each grey cell for users to follow along.  
+- All requirements to run code behind the article should be independent and defined within the sub-directory (e.g. in a `requirements.txt` or `environment.yml`). Again, you may not want to have a `requirements.txt` and instead contain it all in a notebook.
+- Add descriptions of what is happening in each grey cell for readers to follow along.  
 - The code must run from start to finish without error.
 - Each article should contain its own `README.md` that gives a comprehensive description of the work.
 
@@ -56,6 +55,6 @@ When writing your article, the following requirements must be met.
 
 **💾 Data**
 - Small datasets (~1Mb) can be stored in the repository. 
-- Otherwise, if you're using a toy dataset from a source, simply add steps for a user to download the data locally in your article README.md 
+- Otherwise, if you're using a toy dataset from a data source, simply add steps for a user to download the data locally in your article README.md so they can run the code.
 
 Many of these guidelines require judgement on your part. If in doubt, chat to someone else in the team 🙂
