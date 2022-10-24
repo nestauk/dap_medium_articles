@@ -4,7 +4,7 @@
   <img src="https://user-images.githubusercontent.com/46863334/194558740-95e51e09-81d9-41b6-8481-38a2aaee3f98.gif" alt="spancat"/>
 </p>
 
-The code behind [this medium article on training spaCy's spancat component in Python](https://hackmd.io/Yg2u3MZQS26_WbdO5WSdWw?edit).
+The code behind [this medium article on training spaCy's spancat component in Python](https://medium.com/data-analytics-at-nesta/a-deep-dive-into-spacys-span-categorisation-model-992024d047c2).
 
 The entity recognition dataset has been downloaded from [Kaggle here](https://www.kaggle.com/datasets/debasisdotcom/name-entity-recognition-ner-dataset) and is shared [under DbCL v1.0](https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Flicense%2FSWO_1000097).   
 

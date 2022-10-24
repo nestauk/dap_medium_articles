@@ -17,7 +17,7 @@ Long story short - if you're not going to update the code and it's simply to com
 ## 📖 Directory
 
 **[spancat tutorial](https://github.com/nestauk/dap_medium_articles/tree/dev/spancat_tutorial)**
-A tutorial to train spaCy's spancat component without using config based training. Read the [Medium article here](https://medium.com/p/992024d047c2/edit) and follow along with the [jupyter notebook here](https://github.com/nestauk/dap_medium_articles/blob/dev/spancat_tutorial/spancat_training.ipynb). 
+A tutorial to train spaCy's spancat component without using config based training. Read the [Medium article here](https://medium.com/data-analytics-at-nesta/a-deep-dive-into-spacys-span-categorisation-model-992024d047c2) and follow along with the [jupyter notebook here](https://github.com/nestauk/dap_medium_articles/blob/dev/spancat_tutorial/spancat_training.ipynb). 
 
 ## 🎮 User guidelines
 
