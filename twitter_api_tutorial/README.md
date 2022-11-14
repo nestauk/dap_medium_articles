@@ -19,24 +19,31 @@ Open your terminal and follow the instructions:
 1. **Clone this repo:** 
 
 `git clone https://github.com/nestauk/dap_medium_articles.git`
+
 2. **Navigate to this tutorial's folder:** 
 
 `cd twitter_api_tutorial`
+
 3. **Create your conda environment:** 
 
 `conda create --name twitter_api_tutorial python=3.9`
+
 4. **Activate your conda environment:** 
 
 `conda activate twitter_api_tutorial`
+
 5. **Install package dependencies:** 
 
 `pip install -r requirements.txt`
+
 6. **Set your credentials as environment variables:** 
 
 `export BEARER_TOKEN="ADD_YOUR_BEARER_TOKEN_HERE"` and replace `ADD_YOUR_BEARER_TOKEN_HERE` with your bearer token credentials.
+
 7. **Add your conda environment to the notebooks:** 
 
 `python -m ipykernel install --user --name=twitter_api_tutorial`
+
 8. **Run the notebooks to collect your own Tweets!** 
 
 Launch `jupyter-notebook` and make sure your kernel is the right environment, `twitter_api_tutorial`.
