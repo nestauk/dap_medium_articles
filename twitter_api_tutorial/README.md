@@ -1,18 +1,35 @@
-# Getting started with the Twitter API v2 using Python
+# Getting started with Twitter API v2 using Python
 
-This folder contains the code behind the [medium article](https://medium.com/data-analytics-at-nesta) on collecting Twitter data using Python and the Twitter API v2.
+This folder contains the code behind the [medium article](https://medium.com/data-analytics-at-nesta) on all you need to get started with Twitter API v2 using Python.
 
-To be able to run the code, you need a [developer account](https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJyZWRpcmVjdF9hZnRlcl9sb2dpbiI6Imh0dHBzOi8vZGV2ZWxvcGVyLnR3aXR0ZXIuY29tL2VuL3BvcnRhbC9wZXRpdGlvbi9lc3NlbnRpYWwvYmFzaWMtaW5mbyJ9%22%7D) (the process is fairly straightforward and is also described in the [medium article](https://medium.com/data-analytics-at-nesta)).
+To run the code, you need to [have a developer account](https://developer.twitter.com/en/portal/petition/essential/basic-info) and create an app. The process is fairly straightforward and is also described in the [medium article](https://medium.com/data-analytics-at-nesta).
 
-## Tutorial
+## Tutorial 🤓
 
-1. **First part: [Your first Twitter API request](https://github.com/nestauk/dap_medium_articles/blob/3_twitter_api_tutorial/twitter_api_tutorial/Your%20first%20Twitter%20API%20request.ipynb)**
+1. **[Your first Twitter API request](https://github.com/nestauk/dap_medium_articles/blob/3_twitter_api_tutorial/twitter_api_tutorial/Your%20first%20Twitter%20API%20request.ipynb)**
 
-Learn how to make your first Twitter API request and what the collected data looks like.
+On the first part of this tutorial you will learn how to make your first Twitter API request. This request will output data similar to the mock data below:
 
-2. **Second part: [Tweets from the past 7 days](https://github.com/nestauk/dap_medium_articles/blob/3_twitter_api_tutorial/twitter_api_tutorial/Tweets%20from%20the%20past%207%20days.ipynb)**
+```
+{'edit_history_tweet_ids': ['100'],
+ 'author_id': '1',
+ 'created_at': '2022-11-11T18:25:36.000Z',
+ 'text': 'I have installed a heat pump in my home!',
+ 'id': '100'}
+```
 
-Code used to collect Twitter data from the past 7 days using the recent search endpoint.
+2. **[Tweets from the past 7 days](https://github.com/nestauk/dap_medium_articles/blob/3_twitter_api_tutorial/twitter_api_tutorial/Tweets%20from%20the%20past%207%20days.ipynb)**
+
+On the second part of this tutorial, you will collect Twitter data from the past 7 days using the recent search endpoint. This time, we are collecting additional user information, like in the mock example below:
+
+```
+{'id': '987654321',
+ 'name': 'Number 1 Heat Pump Fan',
+ 'username': 'heat_pump_fan',
+ 'description': 'I am a heat pump fan!',
+ 'location': 'My house in the UK',
+ 'verified': False}
+```
 
 ## Set up 🛠️
 Open your terminal and follow the instructions:
