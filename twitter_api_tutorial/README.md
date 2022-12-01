@@ -1,8 +1,8 @@
 # Getting started with Twitter API v2 using Python
 
-This folder contains the code behind the [medium article](https://medium.com/data-analytics-at-nesta) on all you need to get started with Twitter API v2 using Python.
+This folder contains the code behind the [medium article](https://medium.com/data-analytics-at-nesta/all-you-need-to-get-started-with-twitter-api-v2-using-python-6cd4be4d90fe) on all you need to get started with Twitter API v2 using Python.
 
-To run the code, you need to [have a developer account](https://developer.twitter.com/en/portal/petition/essential/basic-info) and create an app. The process is fairly straightforward and is also described in the [medium article](https://medium.com/data-analytics-at-nesta).
+To run the code, you need to [have a developer account](https://developer.twitter.com/en/portal/petition/essential/basic-info) and create an app. The process is fairly straightforward and is also described in the [medium article](https://medium.com/data-analytics-at-nesta/all-you-need-to-get-started-with-twitter-api-v2-using-python-6cd4be4d90fe).
 
 ## Tutorial 🤓
 
