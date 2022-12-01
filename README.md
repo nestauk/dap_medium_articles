@@ -20,7 +20,7 @@ Long story short - if you're not going to update the code and it's simply to com
 A tutorial to train spaCy's spancat component without using config based training. Read the [Medium article here](https://medium.com/data-analytics-at-nesta/a-deep-dive-into-spacys-span-categorisation-model-992024d047c2) and follow along with the [jupyter notebook here](https://github.com/nestauk/dap_medium_articles/blob/dev/spancat_tutorial/spancat_training.ipynb). 
 
 **[Twitter API v2 tutorial](https://github.com/nestauk/dap_medium_articles/tree/dev/twitter_api_tutorial)**
-A tutorial on how to get started with Twitter API v2 using Python. Read the [Medium article here](https://medium.com/data-analytics-at-nesta/).
+A tutorial on how to get started with Twitter API v2 using Python. Read the [Medium article here](https://medium.com/data-analytics-at-nesta/all-you-need-to-get-started-with-twitter-api-v2-using-python-6cd4be4d90fe).
 
 ## 🎮 User guidelines
 
