@@ -6,7 +6,7 @@ To run the code, you need to [have a developer account](https://developer.twitte
 
 ## Tutorial 🤓
 
-1. **[Your first Twitter API request](https://github.com/nestauk/dap_medium_articles/blob/3_twitter_api_tutorial/twitter_api_tutorial/Your%20first%20Twitter%20API%20request.ipynb)**
+1. **[Your first Twitter API request](https://github.com/nestauk/dap_medium_articles/blob/dev/twitter_api_tutorial/Your%20first%20Twitter%20API%20request.ipynb)**
 
 On the first part of this tutorial you will learn how to make your first Twitter API request. This request will output data similar to the mock data below:
 
@@ -18,7 +18,7 @@ On the first part of this tutorial you will learn how to make your first Twitter
  'id': '100'}
 ```
 
-2. **[Tweets from the past 7 days](https://github.com/nestauk/dap_medium_articles/blob/3_twitter_api_tutorial/twitter_api_tutorial/Tweets%20from%20the%20past%207%20days.ipynb)**
+2. **[Tweets from the past 7 days](https://github.com/nestauk/dap_medium_articles/blob/dev/twitter_api_tutorial/Tweets%20from%20the%20past%207%20days.ipynb)**
 
 On the second part of this tutorial, you will collect Twitter data from the past 7 days using the recent search endpoint. This time, we are collecting additional user information, like in the mock example below:
 
