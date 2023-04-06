@@ -1,321 +1,321 @@
-lad19cd,lad19nm,a_index_of_multiple_deprivation_imd,b_income_deprivation_domain,c_employment_deprivation_domain,d_education_skills_and_training_domain,e_health_deprivation_and_disability_domain,f_crime_domain,g_barriers_to_housing_and_services_domain,h_living_environment_deprivation_domain,i_income_deprivation_affecting_children_index_idaci,j_income_deprivation_affecting_older_people_index_idaopi,country,region_code,region_name
-E06000001,Hartlepool,1.0,1.0,1.0,2.0,1.0,1.0,9.0,10.0,1.0,1.0,England,E12000001,North East
-E06000002,Middlesbrough,1.0,1.0,1.0,1.0,1.0,1.0,9.0,9.0,1.0,1.0,England,E12000001,North East
-E06000003,Redcar and Cleveland,2.0,1.0,1.0,3.0,1.0,4.0,10.0,10.0,1.0,3.0,England,E12000001,North East
-E06000004,Stockton-on-Tees,3.0,2.0,2.0,4.0,2.0,5.0,9.0,10.0,2.0,3.0,England,E12000001,North East
-E06000005,Darlington,3.0,3.0,2.0,3.0,2.0,1.0,10.0,10.0,3.0,3.0,England,E12000001,North East
-E06000006,Halton,1.0,1.0,1.0,2.0,1.0,3.0,9.0,5.0,1.0,2.0,England,E12000002,North West
-E06000007,Warrington,5.0,5.0,4.0,6.0,3.0,6.0,8.0,6.0,6.0,5.0,England,E12000002,North West
-E06000008,Blackburn with Darwen,1.0,1.0,1.0,1.0,1.0,2.0,10.0,2.0,2.0,1.0,England,E12000002,North West
-E06000009,Blackpool,1.0,1.0,1.0,1.0,1.0,1.0,10.0,1.0,1.0,1.0,England,E12000002,North West
-E06000010,"Kingston upon Hull, City of",1.0,1.0,1.0,1.0,1.0,1.0,6.0,1.0,1.0,1.0,England,E12000003,Yorkshire and The Humber
-E06000011,East Riding of Yorkshire,7.0,7.0,6.0,7.0,7.0,8.0,7.0,6.0,7.0,6.0,England,E12000003,Yorkshire and The Humber
-E06000012,North East Lincolnshire,1.0,1.0,1.0,1.0,3.0,2.0,10.0,3.0,1.0,3.0,England,E12000003,Yorkshire and The Humber
-E06000013,North Lincolnshire,4.0,4.0,3.0,2.0,3.0,4.0,9.0,7.0,4.0,4.0,England,E12000003,Yorkshire and The Humber
-E06000014,York,9.0,9.0,9.0,7.0,6.0,10.0,9.0,6.0,9.0,8.0,England,E12000003,Yorkshire and The Humber
-E06000015,Derby,3.0,2.0,3.0,1.0,2.0,5.0,7.0,5.0,2.0,3.0,England,E12000004,East Midlands
-E06000016,Leicester,1.0,1.0,3.0,1.0,2.0,2.0,9.0,3.0,1.0,1.0,England,E12000004,East Midlands
-E06000017,Rutland,10.0,10.0,10.0,10.0,10.0,10.0,4.0,7.0,10.0,10.0,England,E12000004,East Midlands
-E06000018,Nottingham,1.0,1.0,2.0,1.0,1.0,2.0,4.0,2.0,1.0,1.0,England,E12000004,East Midlands
-E06000019,"Herefordshire, County of",5.0,6.0,6.0,5.0,6.0,9.0,2.0,1.0,7.0,6.0,England,E12000005,West Midlands
-E06000020,Telford and Wrekin,3.0,2.0,3.0,3.0,2.0,3.0,7.0,10.0,2.0,3.0,England,E12000005,West Midlands
-E06000021,Stoke-on-Trent,1.0,1.0,1.0,1.0,1.0,2.0,9.0,4.0,1.0,2.0,England,E12000005,West Midlands
-E06000022,Bath and North East Somerset,9.0,8.0,8.0,8.0,8.0,7.0,8.0,8.0,8.0,8.0,England,E12000009,South West
-E06000023,"Bristol, City of",3.0,3.0,4.0,3.0,3.0,1.0,4.0,4.0,2.0,2.0,England,E12000009,South West
-E06000024,North Somerset,7.0,6.0,5.0,7.0,6.0,6.0,8.0,10.0,7.0,7.0,England,E12000009,South West
-E06000025,South Gloucestershire,9.0,8.0,8.0,6.0,9.0,6.0,7.0,10.0,8.0,8.0,England,E12000009,South West
-E06000026,Plymouth,2.0,3.0,2.0,4.0,2.0,5.0,8.0,3.0,3.0,3.0,England,E12000009,South West
-E06000027,Torbay,2.0,2.0,1.0,4.0,2.0,4.0,6.0,5.0,2.0,2.0,England,E12000009,South West
-E06000030,Swindon,5.0,5.0,6.0,4.0,5.0,3.0,7.0,8.0,5.0,5.0,England,E12000009,South West
-E06000031,Peterborough,2.0,2.0,3.0,1.0,3.0,1.0,2.0,6.0,2.0,3.0,England,E12000006,East
-E06000032,Luton,3.0,3.0,4.0,3.0,3.0,2.0,1.0,4.0,3.0,2.0,England,E12000006,East
-E06000033,Southend-on-Sea,4.0,3.0,3.0,4.0,4.0,3.0,8.0,6.0,3.0,3.0,England,E12000006,East
-E06000034,Thurrock,5.0,4.0,6.0,2.0,6.0,3.0,3.0,7.0,3.0,4.0,England,E12000006,East
-E06000035,Medway,3.0,4.0,4.0,3.0,4.0,1.0,7.0,3.0,3.0,4.0,England,E12000008,South East
-E06000036,Bracknell Forest,10.0,9.0,9.0,7.0,9.0,10.0,2.0,10.0,9.0,7.0,England,E12000008,South East
-E06000037,West Berkshire,10.0,9.0,9.0,8.0,9.0,9.0,6.0,7.0,9.0,10.0,England,E12000008,South East
-E06000038,Reading,5.0,5.0,7.0,5.0,5.0,4.0,2.0,4.0,5.0,3.0,England,E12000008,South East
-E06000039,Slough,4.0,4.0,6.0,5.0,4.0,2.0,1.0,4.0,6.0,2.0,England,E12000008,South East
-E06000040,Windsor and Maidenhead,10.0,10.0,10.0,10.0,10.0,8.0,7.0,8.0,10.0,9.0,England,E12000008,South East
-E06000041,Wokingham,10.0,10.0,10.0,10.0,10.0,10.0,5.0,10.0,10.0,10.0,England,E12000008,South East
-E06000042,Milton Keynes,6.0,5.0,6.0,5.0,6.0,6.0,1.0,10.0,5.0,5.0,England,E12000008,South East
-E06000043,Brighton and Hove,5.0,4.0,5.0,6.0,4.0,5.0,4.0,3.0,5.0,2.0,England,E12000008,South East
-E06000044,Portsmouth,2.0,4.0,5.0,3.0,3.0,1.0,6.0,1.0,3.0,3.0,England,E12000008,South East
-E06000045,Southampton,2.0,4.0,5.0,3.0,2.0,1.0,7.0,2.0,3.0,3.0,England,E12000008,South East
-E06000046,Isle of Wight,4.0,4.0,2.0,3.0,4.0,6.0,8.0,2.0,4.0,5.0,England,E12000008,South East
-E06000047,County Durham,2.0,2.0,2.0,4.0,1.0,3.0,10.0,10.0,2.0,3.0,England,E12000001,North East
-E06000049,Cheshire East,7.0,8.0,7.0,8.0,6.0,7.0,7.0,6.0,8.0,9.0,England,E12000002,North West
-E06000050,Cheshire West and Chester,6.0,6.0,5.0,6.0,4.0,7.0,9.0,5.0,6.0,6.0,England,E12000002,North West
-E06000051,Shropshire,6.0,7.0,6.0,6.0,7.0,8.0,3.0,2.0,7.0,6.0,England,E12000005,West Midlands
-E06000052,Cornwall,4.0,4.0,3.0,6.0,4.0,9.0,3.0,1.0,4.0,4.0,England,E12000009,South West
-E06000053,Isles of Scilly,9.0,10.0,10.0,10.0,10.0,9.0,6.0,1.0,10.0,10.0,England,E12000009,South West
-E06000054,Wiltshire,8.0,8.0,8.0,7.0,8.0,8.0,3.0,6.0,8.0,8.0,England,E12000009,South West
-E06000055,Bedford,5.0,5.0,5.0,6.0,5.0,5.0,3.0,5.0,5.0,6.0,England,E12000006,East
-E06000056,Central Bedfordshire,9.0,8.0,9.0,7.0,9.0,6.0,6.0,8.0,7.0,8.0,England,E12000006,East
-E06000057,Northumberland,4.0,4.0,3.0,4.0,4.0,6.0,5.0,10.0,4.0,6.0,England,E12000001,North East
-E06000058,"Bournemouth, Christchurch and Poole",6.0,5.0,5.0,5.0,5.0,5.0,6.0,6.0,6.0,5.0,England,E12000009,South West
-E06000059,Dorset,7.0,7.0,6.0,6.0,6.0,9.0,3.0,6.0,7.0,8.0,England,E12000009,South West
-E07000004,Aylesbury Vale,9.0,9.0,9.0,8.0,9.0,8.0,3.0,9.0,9.0,9.0,England,E12000008,South East
-E07000005,Chiltern,10.0,10.0,10.0,10.0,10.0,9.0,5.0,10.0,10.0,10.0,England,E12000008,South East
-E07000006,South Bucks,10.0,10.0,10.0,10.0,10.0,5.0,2.0,8.0,10.0,10.0,England,E12000008,South East
-E07000007,Wycombe,9.0,8.0,9.0,8.0,10.0,9.0,4.0,10.0,9.0,8.0,England,E12000008,South East
-E07000008,Cambridge,7.0,8.0,9.0,9.0,7.0,4.0,4.0,2.0,7.0,6.0,England,E12000006,East
-E07000009,East Cambridgeshire,9.0,9.0,9.0,7.0,10.0,9.0,2.0,7.0,9.0,8.0,England,E12000006,East
-E07000010,Fenland,3.0,3.0,3.0,1.0,2.0,5.0,4.0,7.0,3.0,4.0,England,E12000006,East
-E07000011,Huntingdonshire,8.0,8.0,8.0,6.0,8.0,7.0,4.0,7.0,8.0,9.0,England,E12000006,East
-E07000012,South Cambridgeshire,10.0,10.0,10.0,10.0,10.0,8.0,3.0,9.0,10.0,10.0,England,E12000006,East
-E07000026,Allerdale,4.0,5.0,3.0,3.0,4.0,8.0,7.0,3.0,5.0,6.0,England,E12000002,North West
-E07000027,Barrow-in-Furness,1.0,2.0,1.0,3.0,1.0,8.0,10.0,1.0,3.0,4.0,England,E12000002,North West
-E07000028,Carlisle,4.0,5.0,3.0,2.0,3.0,7.0,8.0,5.0,5.0,6.0,England,E12000002,North West
-E07000029,Copeland,3.0,4.0,2.0,2.0,1.0,9.0,7.0,5.0,4.0,5.0,England,E12000002,North West
-E07000030,Eden,6.0,9.0,9.0,6.0,8.0,10.0,2.0,1.0,9.0,10.0,England,E12000002,North West
-E07000031,South Lakeland,8.0,10.0,9.0,9.0,7.0,10.0,6.0,2.0,10.0,10.0,England,E12000002,North West
-E07000032,Amber Valley,6.0,5.0,5.0,4.0,4.0,9.0,8.0,7.0,5.0,5.0,England,E12000004,East Midlands
-E07000033,Bolsover,3.0,3.0,2.0,1.0,2.0,8.0,9.0,8.0,3.0,4.0,England,E12000004,East Midlands
-E07000034,Chesterfield,3.0,3.0,2.0,4.0,1.0,9.0,9.0,10.0,3.0,4.0,England,E12000004,East Midlands
-E07000035,Derbyshire Dales,9.0,9.0,9.0,9.0,8.0,10.0,5.0,4.0,9.0,10.0,England,E12000004,East Midlands
-E07000036,Erewash,5.0,5.0,4.0,3.0,5.0,7.0,10.0,5.0,4.0,5.0,England,E12000004,East Midlands
-E07000037,High Peak,7.0,7.0,6.0,7.0,5.0,9.0,9.0,5.0,7.0,6.0,England,E12000004,East Midlands
-E07000038,North East Derbyshire,6.0,5.0,4.0,4.0,4.0,10.0,10.0,9.0,6.0,6.0,England,E12000004,East Midlands
-E07000039,South Derbyshire,7.0,8.0,7.0,5.0,6.0,9.0,6.0,6.0,7.0,7.0,England,E12000004,East Midlands
-E07000040,East Devon,8.0,8.0,7.0,8.0,8.0,10.0,7.0,4.0,8.0,9.0,England,E12000009,South West
-E07000041,Exeter,6.0,7.0,7.0,6.0,5.0,7.0,8.0,4.0,6.0,5.0,England,E12000009,South West
-E07000042,Mid Devon,6.0,7.0,7.0,5.0,9.0,10.0,3.0,1.0,7.0,7.0,England,E12000009,South West
-E07000043,North Devon,5.0,5.0,5.0,5.0,4.0,9.0,2.0,2.0,6.0,5.0,England,E12000009,South West
-E07000044,South Hams,8.0,7.0,7.0,10.0,8.0,10.0,5.0,2.0,8.0,8.0,England,E12000009,South West
-E07000045,Teignbridge,7.0,6.0,6.0,7.0,6.0,9.0,7.0,3.0,6.0,6.0,England,E12000009,South West
-E07000046,Torridge,4.0,5.0,4.0,4.0,4.0,10.0,1.0,1.0,5.0,5.0,England,E12000009,South West
-E07000047,West Devon,6.0,6.0,6.0,8.0,6.0,10.0,3.0,1.0,7.0,7.0,England,E12000009,South West
-E07000061,Eastbourne,4.0,3.0,3.0,4.0,5.0,5.0,5.0,8.0,3.0,4.0,England,E12000008,South East
-E07000062,Hastings,1.0,1.0,1.0,2.0,2.0,2.0,2.0,4.0,1.0,2.0,England,E12000008,South East
-E07000063,Lewes,7.0,6.0,6.0,5.0,7.0,8.0,3.0,8.0,6.0,7.0,England,E12000008,South East
-E07000064,Rother,5.0,5.0,4.0,5.0,5.0,7.0,2.0,4.0,5.0,7.0,England,E12000008,South East
-E07000065,Wealden,8.0,9.0,9.0,8.0,10.0,9.0,2.0,5.0,9.0,9.0,England,E12000008,South East
-E07000066,Basildon,4.0,4.0,4.0,2.0,5.0,2.0,3.0,10.0,3.0,4.0,England,E12000006,East
-E07000067,Braintree,7.0,7.0,7.0,5.0,7.0,7.0,6.0,8.0,7.0,6.0,England,E12000006,East
-E07000068,Brentwood,10.0,9.0,10.0,9.0,10.0,5.0,5.0,10.0,9.0,9.0,England,E12000006,East
-E07000069,Castle Point,6.0,6.0,6.0,2.0,6.0,6.0,7.0,10.0,5.0,6.0,England,E12000006,East
-E07000070,Chelmsford,8.0,8.0,8.0,8.0,9.0,6.0,3.0,9.0,8.0,9.0,England,E12000006,East
-E07000071,Colchester,6.0,6.0,7.0,7.0,5.0,5.0,2.0,9.0,5.0,7.0,England,E12000006,East
-E07000072,Epping Forest,7.0,7.0,8.0,5.0,9.0,3.0,4.0,6.0,7.0,6.0,England,E12000006,East
-E07000073,Harlow,4.0,4.0,4.0,3.0,4.0,3.0,2.0,10.0,3.0,4.0,England,E12000006,East
-E07000074,Maldon,7.0,7.0,7.0,5.0,8.0,9.0,5.0,6.0,7.0,8.0,England,E12000006,East
-E07000075,Rochford,9.0,9.0,9.0,5.0,9.0,8.0,7.0,10.0,9.0,8.0,England,E12000006,East
-E07000076,Tendring,2.0,2.0,1.0,1.0,2.0,3.0,7.0,5.0,1.0,4.0,England,E12000006,East
-E07000077,Uttlesford,10.0,10.0,10.0,9.0,10.0,8.0,1.0,8.0,10.0,9.0,England,E12000006,East
-E07000078,Cheltenham,7.0,7.0,7.0,8.0,6.0,6.0,8.0,8.0,6.0,7.0,England,E12000009,South West
-E07000079,Cotswold,9.0,9.0,10.0,9.0,9.0,10.0,2.0,5.0,9.0,10.0,England,E12000009,South West
-E07000080,Forest of Dean,6.0,6.0,5.0,4.0,7.0,10.0,5.0,3.0,6.0,6.0,England,E12000009,South West
-E07000081,Gloucester,4.0,4.0,4.0,3.0,3.0,6.0,5.0,8.0,4.0,5.0,England,E12000009,South West
-E07000082,Stroud,9.0,8.0,8.0,9.0,8.0,10.0,8.0,7.0,9.0,8.0,England,E12000009,South West
-E07000083,Tewkesbury,9.0,8.0,9.0,7.0,8.0,10.0,4.0,7.0,8.0,9.0,England,E12000009,South West
-E07000084,Basingstoke and Deane,8.0,9.0,9.0,7.0,7.0,6.0,4.0,9.0,9.0,9.0,England,E12000008,South East
-E07000085,East Hampshire,9.0,10.0,9.0,9.0,9.0,7.0,4.0,6.0,10.0,10.0,England,E12000008,South East
-E07000086,Eastleigh,10.0,9.0,9.0,8.0,9.0,6.0,9.0,8.0,9.0,9.0,England,E12000008,South East
-E07000087,Fareham,10.0,10.0,10.0,9.0,9.0,8.0,6.0,7.0,10.0,10.0,England,E12000008,South East
-E07000088,Gosport,5.0,6.0,5.0,2.0,4.0,3.0,8.0,4.0,5.0,7.0,England,E12000008,South East
-E07000089,Hart,10.0,10.0,10.0,10.0,10.0,9.0,7.0,10.0,10.0,10.0,England,E12000008,South East
-E07000090,Havant,4.0,4.0,4.0,2.0,4.0,3.0,8.0,6.0,3.0,5.0,England,E12000008,South East
-E07000091,New Forest,8.0,8.0,7.0,8.0,8.0,6.0,4.0,8.0,8.0,9.0,England,E12000008,South East
-E07000092,Rushmoor,7.0,6.0,8.0,6.0,5.0,5.0,4.0,9.0,7.0,2.0,England,E12000008,South East
-E07000093,Test Valley,9.0,9.0,9.0,8.0,9.0,8.0,3.0,7.0,9.0,10.0,England,E12000008,South East
-E07000094,Winchester,10.0,10.0,10.0,10.0,10.0,8.0,3.0,6.0,10.0,10.0,England,E12000008,South East
-E07000095,Broxbourne,6.0,6.0,7.0,4.0,9.0,4.0,1.0,8.0,5.0,5.0,England,E12000006,East
-E07000096,Dacorum,8.0,7.0,8.0,7.0,9.0,5.0,5.0,10.0,7.0,8.0,England,E12000006,East
-E07000098,Hertsmere,8.0,7.0,7.0,8.0,8.0,4.0,2.0,9.0,8.0,6.0,England,E12000006,East
-E07000099,North Hertfordshire,9.0,8.0,8.0,8.0,9.0,7.0,6.0,9.0,8.0,8.0,England,E12000006,East
-E07000102,Three Rivers,10.0,9.0,9.0,9.0,10.0,8.0,5.0,10.0,9.0,8.0,England,E12000006,East
-E07000103,Watford,7.0,7.0,8.0,8.0,7.0,3.0,3.0,4.0,7.0,5.0,England,E12000006,East
-E07000105,Ashford,5.0,5.0,6.0,4.0,7.0,4.0,1.0,7.0,5.0,6.0,England,E12000008,South East
-E07000106,Canterbury,6.0,6.0,6.0,6.0,6.0,4.0,4.0,9.0,6.0,6.0,England,E12000008,South East
-E07000107,Dartford,5.0,7.0,7.0,5.0,6.0,1.0,3.0,3.0,6.0,7.0,England,E12000008,South East
-E07000108,Dover,4.0,4.0,3.0,4.0,5.0,4.0,4.0,7.0,3.0,5.0,England,E12000008,South East
-E07000109,Gravesham,4.0,5.0,5.0,3.0,6.0,1.0,9.0,6.0,4.0,5.0,England,E12000008,South East
-E07000110,Maidstone,6.0,7.0,7.0,6.0,7.0,4.0,3.0,4.0,6.0,7.0,England,E12000008,South East
-E07000111,Sevenoaks,8.0,8.0,9.0,8.0,10.0,4.0,5.0,6.0,8.0,9.0,England,E12000008,South East
-E07000112,Folkestone and Hythe,3.0,3.0,2.0,3.0,4.0,5.0,4.0,5.0,3.0,4.0,England,E12000008,South East
-E07000113,Swale,2.0,3.0,3.0,1.0,3.0,2.0,4.0,5.0,2.0,4.0,England,E12000008,South East
-E07000114,Thanet,1.0,1.0,1.0,2.0,3.0,1.0,5.0,6.0,1.0,2.0,England,E12000008,South East
-E07000115,Tonbridge and Malling,8.0,8.0,8.0,7.0,9.0,6.0,4.0,7.0,7.0,8.0,England,E12000008,South East
-E07000116,Tunbridge Wells,9.0,9.0,9.0,9.0,9.0,7.0,6.0,5.0,9.0,8.0,England,E12000008,South East
-E07000117,Burnley,1.0,1.0,1.0,1.0,1.0,1.0,10.0,1.0,1.0,2.0,England,E12000002,North West
-E07000118,Chorley,6.0,6.0,5.0,7.0,4.0,6.0,9.0,6.0,7.0,6.0,England,E12000002,North West
-E07000119,Fylde,7.0,7.0,4.0,9.0,3.0,8.0,10.0,5.0,8.0,7.0,England,E12000002,North West
-E07000120,Hyndburn,1.0,2.0,1.0,2.0,1.0,2.0,10.0,1.0,2.0,2.0,England,E12000002,North West
-E07000121,Lancaster,3.0,4.0,3.0,5.0,2.0,4.0,9.0,2.0,4.0,4.0,England,E12000002,North West
-E07000122,Pendle,2.0,2.0,2.0,2.0,2.0,4.0,10.0,1.0,4.0,2.0,England,E12000002,North West
-E07000123,Preston,2.0,2.0,2.0,3.0,1.0,2.0,10.0,1.0,3.0,2.0,England,E12000002,North West
-E07000124,Ribble Valley,9.0,10.0,9.0,10.0,7.0,9.0,7.0,4.0,10.0,10.0,England,E12000002,North West
-E07000125,Rossendale,3.0,3.0,2.0,5.0,3.0,4.0,8.0,3.0,4.0,3.0,England,E12000002,North West
-E07000126,South Ribble,7.0,7.0,6.0,8.0,4.0,7.0,10.0,4.0,7.0,7.0,England,E12000002,North West
-E07000127,West Lancashire,5.0,4.0,4.0,5.0,5.0,8.0,7.0,8.0,5.0,4.0,England,E12000002,North West
-E07000128,Wyre,5.0,4.0,3.0,5.0,3.0,7.0,10.0,5.0,4.0,5.0,England,E12000002,North West
-E07000129,Blaby,9.0,9.0,9.0,7.0,7.0,7.0,10.0,9.0,9.0,8.0,England,E12000004,East Midlands
-E07000130,Charnwood,8.0,8.0,8.0,6.0,7.0,6.0,8.0,7.0,7.0,7.0,England,E12000004,East Midlands
-E07000131,Harborough,10.0,10.0,10.0,9.0,10.0,9.0,7.0,9.0,10.0,10.0,England,E12000004,East Midlands
-E07000132,Hinckley and Bosworth,8.0,8.0,7.0,5.0,7.0,6.0,9.0,8.0,8.0,8.0,England,E12000004,East Midlands
-E07000133,Melton,8.0,9.0,9.0,8.0,8.0,8.0,4.0,6.0,8.0,9.0,England,E12000004,East Midlands
-E07000134,North West Leicestershire,7.0,7.0,6.0,5.0,6.0,7.0,9.0,9.0,7.0,7.0,England,E12000004,East Midlands
-E07000135,Oadby and Wigston,8.0,7.0,7.0,6.0,6.0,8.0,8.0,10.0,7.0,7.0,England,E12000004,East Midlands
-E07000136,Boston,4.0,4.0,4.0,1.0,4.0,8.0,6.0,4.0,5.0,4.0,England,E12000004,East Midlands
-E07000137,East Lindsey,2.0,2.0,1.0,2.0,2.0,9.0,3.0,3.0,2.0,3.0,England,E12000004,East Midlands
-E07000138,Lincoln,2.0,3.0,2.0,2.0,2.0,4.0,5.0,7.0,2.0,2.0,England,E12000004,East Midlands
-E07000139,North Kesteven,9.0,8.0,7.0,8.0,8.0,10.0,6.0,8.0,8.0,7.0,England,E12000004,East Midlands
-E07000140,South Holland,6.0,6.0,6.0,2.0,6.0,9.0,4.0,7.0,6.0,6.0,England,E12000004,East Midlands
-E07000141,South Kesteven,8.0,7.0,7.0,7.0,7.0,10.0,5.0,9.0,6.0,8.0,England,E12000004,East Midlands
-E07000142,West Lindsey,5.0,4.0,3.0,5.0,5.0,10.0,4.0,4.0,4.0,7.0,England,E12000004,East Midlands
-E07000143,Breckland,5.0,6.0,6.0,2.0,5.0,8.0,2.0,6.0,6.0,6.0,England,E12000006,East
-E07000144,Broadland,9.0,9.0,7.0,7.0,7.0,10.0,5.0,7.0,9.0,9.0,England,E12000006,East
-E07000145,Great Yarmouth,1.0,1.0,1.0,1.0,2.0,4.0,6.0,4.0,1.0,3.0,England,E12000006,East
-E07000146,King's Lynn and West Norfolk,3.0,5.0,4.0,2.0,3.0,9.0,3.0,4.0,5.0,5.0,England,E12000006,East
-E07000147,North Norfolk,4.0,6.0,5.0,4.0,5.0,10.0,1.0,2.0,6.0,7.0,England,E12000006,East
-E07000148,Norwich,2.0,2.0,3.0,1.0,2.0,3.0,10.0,5.0,1.0,2.0,England,E12000006,East
-E07000149,South Norfolk,8.0,8.0,8.0,7.0,8.0,10.0,3.0,4.0,9.0,8.0,England,E12000006,East
-E07000150,Corby,3.0,4.0,3.0,1.0,2.0,4.0,3.0,10.0,4.0,4.0,England,E12000004,East Midlands
-E07000151,Daventry,8.0,9.0,9.0,7.0,8.0,6.0,4.0,7.0,8.0,9.0,England,E12000004,East Midlands
-E07000152,East Northamptonshire,8.0,8.0,7.0,4.0,7.0,7.0,6.0,8.0,8.0,7.0,England,E12000004,East Midlands
-E07000153,Kettering,5.0,5.0,5.0,4.0,4.0,4.0,7.0,7.0,5.0,6.0,England,E12000004,East Midlands
-E07000154,Northampton,4.0,4.0,5.0,3.0,3.0,2.0,3.0,6.0,4.0,4.0,England,E12000004,East Midlands
-E07000155,South Northamptonshire,10.0,10.0,10.0,9.0,10.0,9.0,6.0,8.0,10.0,10.0,England,E12000004,East Midlands
-E07000156,Wellingborough,4.0,4.0,4.0,2.0,4.0,3.0,5.0,8.0,4.0,5.0,England,E12000004,East Midlands
-E07000163,Craven,8.0,9.0,8.0,9.0,7.0,10.0,8.0,2.0,10.0,9.0,England,E12000003,Yorkshire and The Humber
-E07000164,Hambleton,9.0,9.0,9.0,8.0,9.0,10.0,4.0,4.0,9.0,9.0,England,E12000003,Yorkshire and The Humber
-E07000165,Harrogate,9.0,10.0,9.0,9.0,8.0,10.0,5.0,4.0,10.0,9.0,England,E12000003,Yorkshire and The Humber
-E07000166,Richmondshire,9.0,10.0,10.0,5.0,8.0,10.0,2.0,5.0,10.0,9.0,England,E12000003,Yorkshire and The Humber
-E07000167,Ryedale,7.0,8.0,8.0,6.0,8.0,10.0,2.0,1.0,8.0,8.0,England,E12000003,Yorkshire and The Humber
-E07000168,Scarborough,3.0,3.0,2.0,2.0,2.0,8.0,7.0,2.0,4.0,4.0,England,E12000003,Yorkshire and The Humber
-E07000169,Selby,8.0,8.0,7.0,6.0,7.0,9.0,7.0,7.0,8.0,8.0,England,E12000003,Yorkshire and The Humber
-E07000170,Ashfield,3.0,3.0,2.0,1.0,2.0,3.0,9.0,9.0,2.0,4.0,England,E12000004,East Midlands
-E07000171,Bassetlaw,4.0,5.0,3.0,3.0,3.0,5.0,6.0,7.0,4.0,5.0,England,E12000004,East Midlands
-E07000172,Broxtowe,7.0,7.0,6.0,7.0,6.0,7.0,10.0,7.0,6.0,6.0,England,E12000004,East Midlands
-E07000173,Gedling,7.0,6.0,5.0,6.0,6.0,7.0,9.0,9.0,6.0,7.0,England,E12000004,East Midlands
-E07000174,Mansfield,2.0,2.0,2.0,1.0,1.0,3.0,8.0,9.0,2.0,4.0,England,E12000004,East Midlands
-E07000175,Newark and Sherwood,5.0,5.0,4.0,3.0,5.0,7.0,6.0,7.0,5.0,7.0,England,E12000004,East Midlands
-E07000176,Rushcliffe,10.0,10.0,9.0,10.0,10.0,10.0,9.0,9.0,10.0,10.0,England,E12000004,East Midlands
-E07000177,Cherwell,7.0,8.0,9.0,5.0,7.0,8.0,3.0,5.0,8.0,8.0,England,E12000008,South East
-E07000178,Oxford,6.0,7.0,9.0,7.0,6.0,5.0,4.0,3.0,5.0,5.0,England,E12000008,South East
-E07000179,South Oxfordshire,10.0,10.0,10.0,9.0,10.0,9.0,5.0,7.0,10.0,10.0,England,E12000008,South East
-E07000180,Vale of White Horse,10.0,10.0,10.0,9.0,10.0,10.0,5.0,9.0,9.0,10.0,England,E12000008,South East
-E07000181,West Oxfordshire,10.0,10.0,10.0,8.0,9.0,10.0,5.0,9.0,10.0,10.0,England,E12000008,South East
-E07000187,Mendip,6.0,6.0,6.0,6.0,6.0,7.0,4.0,5.0,7.0,7.0,England,E12000009,South West
-E07000188,Sedgemoor,4.0,5.0,4.0,4.0,5.0,5.0,6.0,2.0,5.0,6.0,England,E12000009,South West
-E07000189,South Somerset,6.0,7.0,6.0,5.0,6.0,7.0,4.0,3.0,6.0,8.0,England,E12000009,South West
-E07000192,Cannock Chase,5.0,4.0,4.0,2.0,4.0,6.0,9.0,7.0,4.0,3.0,England,E12000005,West Midlands
-E07000193,East Staffordshire,5.0,6.0,6.0,4.0,4.0,6.0,8.0,2.0,6.0,6.0,England,E12000005,West Midlands
-E07000194,Lichfield,8.0,8.0,7.0,7.0,7.0,8.0,7.0,9.0,8.0,8.0,England,E12000005,West Midlands
-E07000195,Newcastle-under-Lyme,5.0,6.0,4.0,4.0,3.0,6.0,10.0,7.0,6.0,5.0,England,E12000005,West Midlands
-E07000196,South Staffordshire,8.0,7.0,7.0,7.0,7.0,7.0,8.0,6.0,8.0,7.0,England,E12000005,West Midlands
-E07000197,Stafford,8.0,8.0,7.0,8.0,6.0,8.0,6.0,7.0,8.0,9.0,England,E12000005,West Midlands
-E07000198,Staffordshire Moorlands,7.0,8.0,6.0,6.0,6.0,8.0,7.0,5.0,8.0,7.0,England,E12000005,West Midlands
-E07000199,Tamworth,4.0,4.0,4.0,2.0,3.0,4.0,7.0,9.0,4.0,3.0,England,E12000005,West Midlands
-E07000200,Babergh,7.0,8.0,8.0,6.0,9.0,7.0,2.0,5.0,8.0,8.0,England,E12000006,East
-E07000202,Ipswich,3.0,3.0,3.0,1.0,3.0,2.0,7.0,3.0,3.0,4.0,England,E12000006,East
-E07000203,Mid Suffolk,8.0,9.0,9.0,7.0,9.0,9.0,1.0,4.0,9.0,9.0,England,E12000006,East
-E07000207,Elmbridge,10.0,10.0,10.0,10.0,10.0,6.0,7.0,9.0,10.0,10.0,England,E12000008,South East
-E07000208,Epsom and Ewell,10.0,10.0,10.0,10.0,10.0,5.0,6.0,8.0,10.0,10.0,England,E12000008,South East
-E07000209,Guildford,10.0,10.0,10.0,9.0,10.0,8.0,5.0,7.0,9.0,10.0,England,E12000008,South East
-E07000210,Mole Valley,10.0,10.0,10.0,10.0,9.0,8.0,4.0,7.0,10.0,10.0,England,E12000008,South East
-E07000211,Reigate and Banstead,9.0,9.0,9.0,9.0,8.0,6.0,4.0,7.0,9.0,10.0,England,E12000008,South East
-E07000212,Runnymede,9.0,9.0,10.0,8.0,9.0,5.0,2.0,6.0,8.0,8.0,England,E12000008,South East
-E07000213,Spelthorne,7.0,8.0,9.0,6.0,8.0,4.0,2.0,4.0,7.0,9.0,England,E12000008,South East
-E07000214,Surrey Heath,10.0,10.0,10.0,10.0,9.0,9.0,5.0,10.0,10.0,10.0,England,E12000008,South East
-E07000215,Tandridge,9.0,10.0,9.0,8.0,8.0,4.0,4.0,6.0,9.0,10.0,England,E12000008,South East
-E07000216,Waverley,10.0,10.0,10.0,10.0,9.0,9.0,7.0,10.0,10.0,10.0,England,E12000008,South East
-E07000217,Woking,9.0,9.0,9.0,9.0,8.0,6.0,4.0,8.0,9.0,9.0,England,E12000008,South East
-E07000218,North Warwickshire,6.0,7.0,6.0,4.0,5.0,5.0,6.0,4.0,6.0,6.0,England,E12000005,West Midlands
-E07000219,Nuneaton and Bedworth,4.0,4.0,3.0,2.0,3.0,3.0,8.0,6.0,3.0,4.0,England,E12000005,West Midlands
-E07000220,Rugby,8.0,7.0,7.0,7.0,7.0,5.0,6.0,6.0,7.0,7.0,England,E12000005,West Midlands
-E07000221,Stratford-on-Avon,9.0,9.0,9.0,10.0,8.0,8.0,3.0,4.0,9.0,9.0,England,E12000005,West Midlands
-E07000222,Warwick,9.0,9.0,9.0,10.0,7.0,6.0,5.0,6.0,9.0,8.0,England,E12000005,West Midlands
-E07000223,Adur,6.0,6.0,5.0,3.0,5.0,7.0,8.0,5.0,6.0,5.0,England,E12000008,South East
-E07000224,Arun,5.0,6.0,5.0,4.0,4.0,6.0,3.0,8.0,6.0,6.0,England,E12000008,South East
-E07000225,Chichester,8.0,8.0,8.0,8.0,7.0,9.0,3.0,3.0,8.0,9.0,England,E12000008,South East
-E07000226,Crawley,5.0,5.0,7.0,3.0,5.0,4.0,2.0,8.0,5.0,4.0,England,E12000008,South East
-E07000227,Horsham,10.0,10.0,10.0,10.0,9.0,9.0,3.0,6.0,10.0,10.0,England,E12000008,South East
-E07000228,Mid Sussex,10.0,10.0,10.0,9.0,10.0,9.0,6.0,9.0,10.0,10.0,England,E12000008,South East
-E07000229,Worthing,6.0,6.0,5.0,6.0,5.0,7.0,9.0,2.0,7.0,6.0,England,E12000008,South East
-E07000234,Bromsgrove,9.0,9.0,8.0,9.0,7.0,6.0,7.0,9.0,9.0,9.0,England,E12000005,West Midlands
-E07000235,Malvern Hills,7.0,7.0,6.0,9.0,8.0,8.0,2.0,2.0,6.0,8.0,England,E12000005,West Midlands
-E07000236,Redditch,4.0,4.0,4.0,3.0,3.0,5.0,1.0,10.0,4.0,4.0,England,E12000005,West Midlands
-E07000237,Worcester,5.0,5.0,5.0,5.0,5.0,4.0,7.0,3.0,4.0,5.0,England,E12000005,West Midlands
-E07000238,Wychavon,7.0,7.0,7.0,6.0,8.0,7.0,2.0,4.0,7.0,8.0,England,E12000005,West Midlands
-E07000239,Wyre Forest,4.0,4.0,3.0,4.0,5.0,4.0,4.0,4.0,4.0,5.0,England,E12000005,West Midlands
-E07000240,St Albans,10.0,10.0,10.0,10.0,10.0,7.0,5.0,9.0,10.0,10.0,England,E12000006,East
-E07000241,Welwyn Hatfield,7.0,7.0,8.0,7.0,7.0,6.0,2.0,9.0,6.0,7.0,England,E12000006,East
-E07000242,East Hertfordshire,10.0,10.0,10.0,10.0,10.0,7.0,6.0,9.0,10.0,9.0,England,E12000006,East
-E07000243,Stevenage,5.0,5.0,5.0,4.0,5.0,3.0,3.0,9.0,4.0,4.0,England,E12000006,East
-E07000244,East Suffolk,5.0,5.0,4.0,4.0,6.0,7.0,6.0,4.0,5.0,7.0,England,E12000006,East
-E07000245,West Suffolk,6.0,8.0,8.0,4.0,6.0,7.0,1.0,8.0,8.0,8.0,England,E12000006,East
-E07000246,Somerset West and Taunton,5.0,6.0,5.0,6.0,5.0,6.0,3.0,3.0,6.0,6.0,England,E12000009,South West
-E08000001,Bolton,2.0,1.0,2.0,3.0,2.0,1.0,9.0,3.0,2.0,2.0,England,E12000002,North West
-E08000002,Bury,3.0,3.0,2.0,6.0,3.0,2.0,9.0,4.0,4.0,4.0,England,E12000002,North West
-E08000003,Manchester,1.0,1.0,2.0,3.0,1.0,1.0,2.0,2.0,1.0,1.0,England,E12000002,North West
-E08000004,Oldham,1.0,1.0,1.0,1.0,2.0,1.0,10.0,2.0,2.0,2.0,England,E12000002,North West
-E08000005,Rochdale,1.0,1.0,1.0,2.0,1.0,1.0,8.0,5.0,2.0,2.0,England,E12000002,North West
-E08000006,Salford,1.0,1.0,1.0,2.0,1.0,1.0,7.0,3.0,1.0,1.0,England,E12000002,North West
-E08000007,Stockport,5.0,5.0,4.0,6.0,3.0,3.0,10.0,5.0,6.0,5.0,England,E12000002,North West
-E08000008,Tameside,1.0,2.0,2.0,2.0,1.0,1.0,9.0,3.0,2.0,2.0,England,E12000002,North West
-E08000009,Trafford,7.0,6.0,5.0,9.0,5.0,5.0,10.0,5.0,7.0,5.0,England,E12000002,North West
-E08000010,Wigan,3.0,3.0,2.0,3.0,2.0,2.0,10.0,8.0,4.0,3.0,England,E12000002,North West
-E08000011,Knowsley,1.0,1.0,1.0,1.0,1.0,3.0,8.0,2.0,1.0,1.0,England,E12000002,North West
-E08000012,Liverpool,1.0,1.0,1.0,1.0,1.0,1.0,9.0,1.0,1.0,1.0,England,E12000002,North West
-E08000013,St. Helens,1.0,2.0,1.0,3.0,1.0,3.0,10.0,6.0,2.0,3.0,England,E12000002,North West
-E08000014,Sefton,2.0,2.0,1.0,5.0,1.0,5.0,10.0,3.0,3.0,3.0,England,E12000002,North West
-E08000015,Wirral,2.0,2.0,1.0,5.0,1.0,5.0,10.0,3.0,2.0,3.0,England,E12000002,North West
-E08000016,Barnsley,2.0,2.0,1.0,1.0,1.0,1.0,10.0,10.0,2.0,3.0,England,E12000003,Yorkshire and The Humber
-E08000017,Doncaster,2.0,2.0,2.0,1.0,2.0,1.0,9.0,8.0,2.0,3.0,England,E12000003,Yorkshire and The Humber
-E08000018,Rotherham,2.0,2.0,2.0,1.0,1.0,2.0,10.0,8.0,2.0,3.0,England,E12000003,Yorkshire and The Humber
-E08000019,Sheffield,2.0,2.0,3.0,2.0,2.0,2.0,8.0,5.0,2.0,2.0,England,E12000003,Yorkshire and The Humber
-E08000021,Newcastle upon Tyne,2.0,2.0,2.0,2.0,1.0,2.0,8.0,9.0,1.0,1.0,England,E12000001,North East
-E08000022,North Tyneside,4.0,3.0,2.0,5.0,3.0,4.0,9.0,10.0,4.0,3.0,England,E12000001,North East
-E08000023,South Tyneside,1.0,1.0,1.0,3.0,1.0,3.0,9.0,10.0,1.0,2.0,England,E12000001,North East
-E08000024,Sunderland,2.0,1.0,1.0,2.0,1.0,2.0,10.0,10.0,1.0,1.0,England,E12000001,North East
-E08000025,Birmingham,1.0,1.0,1.0,2.0,2.0,3.0,1.0,1.0,1.0,1.0,England,E12000005,West Midlands
-E08000026,Coventry,3.0,3.0,4.0,4.0,3.0,4.0,6.0,2.0,2.0,2.0,England,E12000005,West Midlands
-E08000027,Dudley,3.0,2.0,2.0,3.0,3.0,5.0,10.0,4.0,2.0,3.0,England,E12000005,West Midlands
-E08000028,Sandwell,1.0,1.0,1.0,1.0,2.0,3.0,6.0,1.0,1.0,1.0,England,E12000005,West Midlands
-E08000029,Solihull,6.0,6.0,5.0,6.0,6.0,6.0,6.0,8.0,5.0,6.0,England,E12000005,West Midlands
-E08000030,Walsall,1.0,1.0,2.0,1.0,2.0,3.0,8.0,3.0,1.0,2.0,England,E12000005,West Midlands
-E08000031,Wolverhampton,1.0,1.0,1.0,2.0,2.0,4.0,6.0,3.0,1.0,1.0,England,E12000005,West Midlands
-E08000032,Bradford,1.0,1.0,2.0,1.0,2.0,1.0,8.0,1.0,2.0,2.0,England,E12000003,Yorkshire and The Humber
-E08000033,Calderdale,3.0,3.0,3.0,5.0,3.0,1.0,10.0,1.0,3.0,4.0,England,E12000003,Yorkshire and The Humber
-E08000034,Kirklees,3.0,3.0,3.0,4.0,4.0,2.0,8.0,2.0,4.0,4.0,England,E12000003,Yorkshire and The Humber
-E08000035,Leeds,2.0,3.0,3.0,3.0,3.0,1.0,9.0,1.0,3.0,3.0,England,E12000003,Yorkshire and The Humber
-E08000036,Wakefield,2.0,3.0,2.0,1.0,2.0,1.0,9.0,8.0,3.0,4.0,England,E12000003,Yorkshire and The Humber
-E08000037,Gateshead,2.0,2.0,2.0,3.0,1.0,2.0,8.0,9.0,3.0,2.0,England,E12000001,North East
-E09000001,City of London,7.0,9.0,10.0,10.0,9.0,10.0,1.0,1.0,10.0,9.0,England,E12000007,London
-E09000002,Barking and Dagenham,1.0,1.0,3.0,4.0,4.0,1.0,1.0,2.0,1.0,1.0,England,E12000007,London
-E09000003,Barnet,6.0,5.0,7.0,10.0,10.0,4.0,1.0,3.0,7.0,3.0,England,E12000007,London
-E09000004,Bexley,6.0,6.0,7.0,6.0,8.0,5.0,2.0,5.0,5.0,6.0,England,E12000007,London
-E09000005,Brent,3.0,3.0,4.0,8.0,7.0,2.0,1.0,2.0,4.0,1.0,England,E12000007,London
-E09000006,Bromley,8.0,7.0,8.0,9.0,9.0,5.0,2.0,6.0,6.0,7.0,England,E12000007,London
-E09000007,Camden,5.0,3.0,5.0,9.0,8.0,3.0,5.0,2.0,3.0,1.0,England,E12000007,London
-E09000008,Croydon,4.0,4.0,5.0,7.0,6.0,3.0,1.0,3.0,3.0,3.0,England,E12000007,London
-E09000009,Ealing,4.0,3.0,5.0,8.0,6.0,3.0,1.0,2.0,4.0,1.0,England,E12000007,London
-E09000010,Enfield,3.0,2.0,4.0,5.0,7.0,3.0,1.0,3.0,2.0,2.0,England,E12000007,London
-E09000011,Greenwich,3.0,2.0,4.0,7.0,5.0,2.0,1.0,3.0,2.0,1.0,England,E12000007,London
-E09000012,Hackney,1.0,1.0,3.0,8.0,3.0,1.0,1.0,1.0,1.0,1.0,England,E12000007,London
-E09000013,Hammersmith and Fulham,4.0,3.0,5.0,10.0,5.0,2.0,2.0,1.0,3.0,1.0,England,E12000007,London
-E09000014,Haringey,2.0,2.0,3.0,6.0,5.0,1.0,1.0,1.0,2.0,1.0,England,E12000007,London
-E09000015,Harrow,7.0,5.0,8.0,10.0,10.0,6.0,1.0,5.0,7.0,3.0,England,E12000007,London
-E09000016,Havering,6.0,6.0,6.0,4.0,8.0,4.0,5.0,6.0,5.0,6.0,England,E12000007,London
-E09000017,Hillingdon,6.0,5.0,7.0,7.0,7.0,3.0,1.0,5.0,5.0,4.0,England,E12000007,London
-E09000018,Hounslow,4.0,4.0,6.0,8.0,6.0,2.0,1.0,2.0,4.0,2.0,England,E12000007,London
-E09000019,Islington,2.0,2.0,3.0,9.0,3.0,1.0,2.0,1.0,1.0,1.0,England,E12000007,London
-E09000020,Kensington and Chelsea,4.0,5.0,6.0,10.0,10.0,3.0,1.0,1.0,6.0,2.0,England,E12000007,London
-E09000021,Kingston upon Thames,9.0,8.0,9.0,10.0,10.0,7.0,3.0,3.0,9.0,6.0,England,E12000007,London
-E09000022,Lambeth,3.0,3.0,5.0,9.0,4.0,1.0,1.0,1.0,2.0,1.0,England,E12000007,London
-E09000023,Lewisham,2.0,2.0,4.0,8.0,4.0,2.0,1.0,1.0,2.0,1.0,England,E12000007,London
-E09000024,Merton,7.0,6.0,8.0,10.0,8.0,5.0,5.0,2.0,6.0,3.0,England,E12000007,London
-E09000025,Newham,2.0,2.0,5.0,6.0,5.0,2.0,1.0,2.0,3.0,1.0,England,E12000007,London
-E09000026,Redbridge,6.0,5.0,7.0,9.0,9.0,3.0,2.0,3.0,6.0,2.0,England,E12000007,London
-E09000027,Richmond upon Thames,10.0,9.0,10.0,10.0,10.0,5.0,8.0,3.0,10.0,8.0,England,E12000007,London
-E09000028,Southwark,3.0,2.0,4.0,9.0,4.0,2.0,1.0,1.0,1.0,1.0,England,E12000007,London
-E09000029,Sutton,8.0,7.0,7.0,9.0,8.0,6.0,5.0,4.0,7.0,6.0,England,E12000007,London
-E09000030,Tower Hamlets,2.0,1.0,4.0,7.0,4.0,2.0,1.0,2.0,1.0,1.0,England,E12000007,London
-E09000031,Waltham Forest,3.0,3.0,5.0,7.0,6.0,2.0,1.0,2.0,3.0,1.0,England,E12000007,London
-E09000032,Wandsworth,6.0,6.0,8.0,10.0,7.0,4.0,2.0,2.0,5.0,2.0,England,E12000007,London
-E09000033,Westminster,5.0,4.0,6.0,10.0,9.0,4.0,5.0,1.0,4.0,1.0,England,E12000007,London
+lad19cd,lad19nm,index_of_multiple_deprivation,income_deprivation,employment_deprivation,education_skills_and_training,health_deprivation_and_disability,crime,barriers_to_housing_and_services,living_environment_deprivation,income_deprivation_affecting_children,income_deprivation_affecting_older_people,country,region_code,region_name
+E06000001,Hartlepool,1,1,1,2,1,1,9,10,1,1,England,E12000001,North East
+E06000002,Middlesbrough,1,1,1,1,1,1,9,9,1,1,England,E12000001,North East
+E06000003,Redcar and Cleveland,2,1,1,3,1,4,10,10,1,3,England,E12000001,North East
+E06000004,Stockton-on-Tees,3,2,2,4,2,5,9,10,2,3,England,E12000001,North East
+E06000005,Darlington,3,3,2,3,2,1,10,10,3,3,England,E12000001,North East
+E06000006,Halton,1,1,1,2,1,3,9,5,1,2,England,E12000002,North West
+E06000007,Warrington,5,5,4,6,3,6,8,6,6,5,England,E12000002,North West
+E06000008,Blackburn with Darwen,1,1,1,1,1,2,10,2,2,1,England,E12000002,North West
+E06000009,Blackpool,1,1,1,1,1,1,10,1,1,1,England,E12000002,North West
+E06000010,"Kingston upon Hull, City of",1,1,1,1,1,1,6,1,1,1,England,E12000003,Yorkshire and The Humber
+E06000011,East Riding of Yorkshire,7,7,6,7,7,8,7,6,7,6,England,E12000003,Yorkshire and The Humber
+E06000012,North East Lincolnshire,1,1,1,1,3,2,10,3,1,3,England,E12000003,Yorkshire and The Humber
+E06000013,North Lincolnshire,4,4,3,2,3,4,9,7,4,4,England,E12000003,Yorkshire and The Humber
+E06000014,York,9,9,9,7,6,10,9,6,9,8,England,E12000003,Yorkshire and The Humber
+E06000015,Derby,3,2,3,1,2,5,7,5,2,3,England,E12000004,East Midlands
+E06000016,Leicester,1,1,3,1,2,2,9,3,1,1,England,E12000004,East Midlands
+E06000017,Rutland,10,10,10,10,10,10,4,7,10,10,England,E12000004,East Midlands
+E06000018,Nottingham,1,1,2,1,1,2,4,2,1,1,England,E12000004,East Midlands
+E06000019,"Herefordshire, County of",5,6,6,5,6,9,2,1,7,6,England,E12000005,West Midlands
+E06000020,Telford and Wrekin,3,2,3,3,2,3,7,10,2,3,England,E12000005,West Midlands
+E06000021,Stoke-on-Trent,1,1,1,1,1,2,9,4,1,2,England,E12000005,West Midlands
+E06000022,Bath and North East Somerset,9,8,8,8,8,7,8,8,8,8,England,E12000009,South West
+E06000023,"Bristol, City of",3,3,4,3,3,1,4,4,2,2,England,E12000009,South West
+E06000024,North Somerset,7,6,5,7,6,6,8,10,7,7,England,E12000009,South West
+E06000025,South Gloucestershire,9,8,8,6,9,6,7,10,8,8,England,E12000009,South West
+E06000026,Plymouth,2,3,2,4,2,5,8,3,3,3,England,E12000009,South West
+E06000027,Torbay,2,2,1,4,2,4,6,5,2,2,England,E12000009,South West
+E06000030,Swindon,5,5,6,4,5,3,7,8,5,5,England,E12000009,South West
+E06000031,Peterborough,2,2,3,1,3,1,2,6,2,3,England,E12000006,East
+E06000032,Luton,3,3,4,3,3,2,1,4,3,2,England,E12000006,East
+E06000033,Southend-on-Sea,4,3,3,4,4,3,8,6,3,3,England,E12000006,East
+E06000034,Thurrock,5,4,6,2,6,3,3,7,3,4,England,E12000006,East
+E06000035,Medway,3,4,4,3,4,1,7,3,3,4,England,E12000008,South East
+E06000036,Bracknell Forest,10,9,9,7,9,10,2,10,9,7,England,E12000008,South East
+E06000037,West Berkshire,10,9,9,8,9,9,6,7,9,10,England,E12000008,South East
+E06000038,Reading,5,5,7,5,5,4,2,4,5,3,England,E12000008,South East
+E06000039,Slough,4,4,6,5,4,2,1,4,6,2,England,E12000008,South East
+E06000040,Windsor and Maidenhead,10,10,10,10,10,8,7,8,10,9,England,E12000008,South East
+E06000041,Wokingham,10,10,10,10,10,10,5,10,10,10,England,E12000008,South East
+E06000042,Milton Keynes,6,5,6,5,6,6,1,10,5,5,England,E12000008,South East
+E06000043,Brighton and Hove,5,4,5,6,4,5,4,3,5,2,England,E12000008,South East
+E06000044,Portsmouth,2,4,5,3,3,1,6,1,3,3,England,E12000008,South East
+E06000045,Southampton,2,4,5,3,2,1,7,2,3,3,England,E12000008,South East
+E06000046,Isle of Wight,4,4,2,3,4,6,8,2,4,5,England,E12000008,South East
+E06000047,County Durham,2,2,2,4,1,3,10,10,2,3,England,E12000001,North East
+E06000049,Cheshire East,7,8,7,8,6,7,7,6,8,9,England,E12000002,North West
+E06000050,Cheshire West and Chester,6,6,5,6,4,7,9,5,6,6,England,E12000002,North West
+E06000051,Shropshire,6,7,6,6,7,8,3,2,7,6,England,E12000005,West Midlands
+E06000052,Cornwall,4,4,3,6,4,9,3,1,4,4,England,E12000009,South West
+E06000053,Isles of Scilly,9,10,10,10,10,9,6,1,10,10,England,E12000009,South West
+E06000054,Wiltshire,8,8,8,7,8,8,3,6,8,8,England,E12000009,South West
+E06000055,Bedford,5,5,5,6,5,5,3,5,5,6,England,E12000006,East
+E06000056,Central Bedfordshire,9,8,9,7,9,6,6,8,7,8,England,E12000006,East
+E06000057,Northumberland,4,4,3,4,4,6,5,10,4,6,England,E12000001,North East
+E06000058,"Bournemouth, Christchurch and Poole",6,5,5,5,5,5,6,6,6,5,England,E12000009,South West
+E06000059,Dorset,7,7,6,6,6,9,3,6,7,8,England,E12000009,South West
+E07000004,Aylesbury Vale,9,9,9,8,9,8,3,9,9,9,England,E12000008,South East
+E07000005,Chiltern,10,10,10,10,10,9,5,10,10,10,England,E12000008,South East
+E07000006,South Bucks,10,10,10,10,10,5,2,8,10,10,England,E12000008,South East
+E07000007,Wycombe,9,8,9,8,10,9,4,10,9,8,England,E12000008,South East
+E07000008,Cambridge,7,8,9,9,7,4,4,2,7,6,England,E12000006,East
+E07000009,East Cambridgeshire,9,9,9,7,10,9,2,7,9,8,England,E12000006,East
+E07000010,Fenland,3,3,3,1,2,5,4,7,3,4,England,E12000006,East
+E07000011,Huntingdonshire,8,8,8,6,8,7,4,7,8,9,England,E12000006,East
+E07000012,South Cambridgeshire,10,10,10,10,10,8,3,9,10,10,England,E12000006,East
+E07000026,Allerdale,4,5,3,3,4,8,7,3,5,6,England,E12000002,North West
+E07000027,Barrow-in-Furness,1,2,1,3,1,8,10,1,3,4,England,E12000002,North West
+E07000028,Carlisle,4,5,3,2,3,7,8,5,5,6,England,E12000002,North West
+E07000029,Copeland,3,4,2,2,1,9,7,5,4,5,England,E12000002,North West
+E07000030,Eden,6,9,9,6,8,10,2,1,9,10,England,E12000002,North West
+E07000031,South Lakeland,8,10,9,9,7,10,6,2,10,10,England,E12000002,North West
+E07000032,Amber Valley,6,5,5,4,4,9,8,7,5,5,England,E12000004,East Midlands
+E07000033,Bolsover,3,3,2,1,2,8,9,8,3,4,England,E12000004,East Midlands
+E07000034,Chesterfield,3,3,2,4,1,9,9,10,3,4,England,E12000004,East Midlands
+E07000035,Derbyshire Dales,9,9,9,9,8,10,5,4,9,10,England,E12000004,East Midlands
+E07000036,Erewash,5,5,4,3,5,7,10,5,4,5,England,E12000004,East Midlands
+E07000037,High Peak,7,7,6,7,5,9,9,5,7,6,England,E12000004,East Midlands
+E07000038,North East Derbyshire,6,5,4,4,4,10,10,9,6,6,England,E12000004,East Midlands
+E07000039,South Derbyshire,7,8,7,5,6,9,6,6,7,7,England,E12000004,East Midlands
+E07000040,East Devon,8,8,7,8,8,10,7,4,8,9,England,E12000009,South West
+E07000041,Exeter,6,7,7,6,5,7,8,4,6,5,England,E12000009,South West
+E07000042,Mid Devon,6,7,7,5,9,10,3,1,7,7,England,E12000009,South West
+E07000043,North Devon,5,5,5,5,4,9,2,2,6,5,England,E12000009,South West
+E07000044,South Hams,8,7,7,10,8,10,5,2,8,8,England,E12000009,South West
+E07000045,Teignbridge,7,6,6,7,6,9,7,3,6,6,England,E12000009,South West
+E07000046,Torridge,4,5,4,4,4,10,1,1,5,5,England,E12000009,South West
+E07000047,West Devon,6,6,6,8,6,10,3,1,7,7,England,E12000009,South West
+E07000061,Eastbourne,4,3,3,4,5,5,5,8,3,4,England,E12000008,South East
+E07000062,Hastings,1,1,1,2,2,2,2,4,1,2,England,E12000008,South East
+E07000063,Lewes,7,6,6,5,7,8,3,8,6,7,England,E12000008,South East
+E07000064,Rother,5,5,4,5,5,7,2,4,5,7,England,E12000008,South East
+E07000065,Wealden,8,9,9,8,10,9,2,5,9,9,England,E12000008,South East
+E07000066,Basildon,4,4,4,2,5,2,3,10,3,4,England,E12000006,East
+E07000067,Braintree,7,7,7,5,7,7,6,8,7,6,England,E12000006,East
+E07000068,Brentwood,10,9,10,9,10,5,5,10,9,9,England,E12000006,East
+E07000069,Castle Point,6,6,6,2,6,6,7,10,5,6,England,E12000006,East
+E07000070,Chelmsford,8,8,8,8,9,6,3,9,8,9,England,E12000006,East
+E07000071,Colchester,6,6,7,7,5,5,2,9,5,7,England,E12000006,East
+E07000072,Epping Forest,7,7,8,5,9,3,4,6,7,6,England,E12000006,East
+E07000073,Harlow,4,4,4,3,4,3,2,10,3,4,England,E12000006,East
+E07000074,Maldon,7,7,7,5,8,9,5,6,7,8,England,E12000006,East
+E07000075,Rochford,9,9,9,5,9,8,7,10,9,8,England,E12000006,East
+E07000076,Tendring,2,2,1,1,2,3,7,5,1,4,England,E12000006,East
+E07000077,Uttlesford,10,10,10,9,10,8,1,8,10,9,England,E12000006,East
+E07000078,Cheltenham,7,7,7,8,6,6,8,8,6,7,England,E12000009,South West
+E07000079,Cotswold,9,9,10,9,9,10,2,5,9,10,England,E12000009,South West
+E07000080,Forest of Dean,6,6,5,4,7,10,5,3,6,6,England,E12000009,South West
+E07000081,Gloucester,4,4,4,3,3,6,5,8,4,5,England,E12000009,South West
+E07000082,Stroud,9,8,8,9,8,10,8,7,9,8,England,E12000009,South West
+E07000083,Tewkesbury,9,8,9,7,8,10,4,7,8,9,England,E12000009,South West
+E07000084,Basingstoke and Deane,8,9,9,7,7,6,4,9,9,9,England,E12000008,South East
+E07000085,East Hampshire,9,10,9,9,9,7,4,6,10,10,England,E12000008,South East
+E07000086,Eastleigh,10,9,9,8,9,6,9,8,9,9,England,E12000008,South East
+E07000087,Fareham,10,10,10,9,9,8,6,7,10,10,England,E12000008,South East
+E07000088,Gosport,5,6,5,2,4,3,8,4,5,7,England,E12000008,South East
+E07000089,Hart,10,10,10,10,10,9,7,10,10,10,England,E12000008,South East
+E07000090,Havant,4,4,4,2,4,3,8,6,3,5,England,E12000008,South East
+E07000091,New Forest,8,8,7,8,8,6,4,8,8,9,England,E12000008,South East
+E07000092,Rushmoor,7,6,8,6,5,5,4,9,7,2,England,E12000008,South East
+E07000093,Test Valley,9,9,9,8,9,8,3,7,9,10,England,E12000008,South East
+E07000094,Winchester,10,10,10,10,10,8,3,6,10,10,England,E12000008,South East
+E07000095,Broxbourne,6,6,7,4,9,4,1,8,5,5,England,E12000006,East
+E07000096,Dacorum,8,7,8,7,9,5,5,10,7,8,England,E12000006,East
+E07000098,Hertsmere,8,7,7,8,8,4,2,9,8,6,England,E12000006,East
+E07000099,North Hertfordshire,9,8,8,8,9,7,6,9,8,8,England,E12000006,East
+E07000102,Three Rivers,10,9,9,9,10,8,5,10,9,8,England,E12000006,East
+E07000103,Watford,7,7,8,8,7,3,3,4,7,5,England,E12000006,East
+E07000105,Ashford,5,5,6,4,7,4,1,7,5,6,England,E12000008,South East
+E07000106,Canterbury,6,6,6,6,6,4,4,9,6,6,England,E12000008,South East
+E07000107,Dartford,5,7,7,5,6,1,3,3,6,7,England,E12000008,South East
+E07000108,Dover,4,4,3,4,5,4,4,7,3,5,England,E12000008,South East
+E07000109,Gravesham,4,5,5,3,6,1,9,6,4,5,England,E12000008,South East
+E07000110,Maidstone,6,7,7,6,7,4,3,4,6,7,England,E12000008,South East
+E07000111,Sevenoaks,8,8,9,8,10,4,5,6,8,9,England,E12000008,South East
+E07000112,Folkestone and Hythe,3,3,2,3,4,5,4,5,3,4,England,E12000008,South East
+E07000113,Swale,2,3,3,1,3,2,4,5,2,4,England,E12000008,South East
+E07000114,Thanet,1,1,1,2,3,1,5,6,1,2,England,E12000008,South East
+E07000115,Tonbridge and Malling,8,8,8,7,9,6,4,7,7,8,England,E12000008,South East
+E07000116,Tunbridge Wells,9,9,9,9,9,7,6,5,9,8,England,E12000008,South East
+E07000117,Burnley,1,1,1,1,1,1,10,1,1,2,England,E12000002,North West
+E07000118,Chorley,6,6,5,7,4,6,9,6,7,6,England,E12000002,North West
+E07000119,Fylde,7,7,4,9,3,8,10,5,8,7,England,E12000002,North West
+E07000120,Hyndburn,1,2,1,2,1,2,10,1,2,2,England,E12000002,North West
+E07000121,Lancaster,3,4,3,5,2,4,9,2,4,4,England,E12000002,North West
+E07000122,Pendle,2,2,2,2,2,4,10,1,4,2,England,E12000002,North West
+E07000123,Preston,2,2,2,3,1,2,10,1,3,2,England,E12000002,North West
+E07000124,Ribble Valley,9,10,9,10,7,9,7,4,10,10,England,E12000002,North West
+E07000125,Rossendale,3,3,2,5,3,4,8,3,4,3,England,E12000002,North West
+E07000126,South Ribble,7,7,6,8,4,7,10,4,7,7,England,E12000002,North West
+E07000127,West Lancashire,5,4,4,5,5,8,7,8,5,4,England,E12000002,North West
+E07000128,Wyre,5,4,3,5,3,7,10,5,4,5,England,E12000002,North West
+E07000129,Blaby,9,9,9,7,7,7,10,9,9,8,England,E12000004,East Midlands
+E07000130,Charnwood,8,8,8,6,7,6,8,7,7,7,England,E12000004,East Midlands
+E07000131,Harborough,10,10,10,9,10,9,7,9,10,10,England,E12000004,East Midlands
+E07000132,Hinckley and Bosworth,8,8,7,5,7,6,9,8,8,8,England,E12000004,East Midlands
+E07000133,Melton,8,9,9,8,8,8,4,6,8,9,England,E12000004,East Midlands
+E07000134,North West Leicestershire,7,7,6,5,6,7,9,9,7,7,England,E12000004,East Midlands
+E07000135,Oadby and Wigston,8,7,7,6,6,8,8,10,7,7,England,E12000004,East Midlands
+E07000136,Boston,4,4,4,1,4,8,6,4,5,4,England,E12000004,East Midlands
+E07000137,East Lindsey,2,2,1,2,2,9,3,3,2,3,England,E12000004,East Midlands
+E07000138,Lincoln,2,3,2,2,2,4,5,7,2,2,England,E12000004,East Midlands
+E07000139,North Kesteven,9,8,7,8,8,10,6,8,8,7,England,E12000004,East Midlands
+E07000140,South Holland,6,6,6,2,6,9,4,7,6,6,England,E12000004,East Midlands
+E07000141,South Kesteven,8,7,7,7,7,10,5,9,6,8,England,E12000004,East Midlands
+E07000142,West Lindsey,5,4,3,5,5,10,4,4,4,7,England,E12000004,East Midlands
+E07000143,Breckland,5,6,6,2,5,8,2,6,6,6,England,E12000006,East
+E07000144,Broadland,9,9,7,7,7,10,5,7,9,9,England,E12000006,East
+E07000145,Great Yarmouth,1,1,1,1,2,4,6,4,1,3,England,E12000006,East
+E07000146,King's Lynn and West Norfolk,3,5,4,2,3,9,3,4,5,5,England,E12000006,East
+E07000147,North Norfolk,4,6,5,4,5,10,1,2,6,7,England,E12000006,East
+E07000148,Norwich,2,2,3,1,2,3,10,5,1,2,England,E12000006,East
+E07000149,South Norfolk,8,8,8,7,8,10,3,4,9,8,England,E12000006,East
+E07000150,Corby,3,4,3,1,2,4,3,10,4,4,England,E12000004,East Midlands
+E07000151,Daventry,8,9,9,7,8,6,4,7,8,9,England,E12000004,East Midlands
+E07000152,East Northamptonshire,8,8,7,4,7,7,6,8,8,7,England,E12000004,East Midlands
+E07000153,Kettering,5,5,5,4,4,4,7,7,5,6,England,E12000004,East Midlands
+E07000154,Northampton,4,4,5,3,3,2,3,6,4,4,England,E12000004,East Midlands
+E07000155,South Northamptonshire,10,10,10,9,10,9,6,8,10,10,England,E12000004,East Midlands
+E07000156,Wellingborough,4,4,4,2,4,3,5,8,4,5,England,E12000004,East Midlands
+E07000163,Craven,8,9,8,9,7,10,8,2,10,9,England,E12000003,Yorkshire and The Humber
+E07000164,Hambleton,9,9,9,8,9,10,4,4,9,9,England,E12000003,Yorkshire and The Humber
+E07000165,Harrogate,9,10,9,9,8,10,5,4,10,9,England,E12000003,Yorkshire and The Humber
+E07000166,Richmondshire,9,10,10,5,8,10,2,5,10,9,England,E12000003,Yorkshire and The Humber
+E07000167,Ryedale,7,8,8,6,8,10,2,1,8,8,England,E12000003,Yorkshire and The Humber
+E07000168,Scarborough,3,3,2,2,2,8,7,2,4,4,England,E12000003,Yorkshire and The Humber
+E07000169,Selby,8,8,7,6,7,9,7,7,8,8,England,E12000003,Yorkshire and The Humber
+E07000170,Ashfield,3,3,2,1,2,3,9,9,2,4,England,E12000004,East Midlands
+E07000171,Bassetlaw,4,5,3,3,3,5,6,7,4,5,England,E12000004,East Midlands
+E07000172,Broxtowe,7,7,6,7,6,7,10,7,6,6,England,E12000004,East Midlands
+E07000173,Gedling,7,6,5,6,6,7,9,9,6,7,England,E12000004,East Midlands
+E07000174,Mansfield,2,2,2,1,1,3,8,9,2,4,England,E12000004,East Midlands
+E07000175,Newark and Sherwood,5,5,4,3,5,7,6,7,5,7,England,E12000004,East Midlands
+E07000176,Rushcliffe,10,10,9,10,10,10,9,9,10,10,England,E12000004,East Midlands
+E07000177,Cherwell,7,8,9,5,7,8,3,5,8,8,England,E12000008,South East
+E07000178,Oxford,6,7,9,7,6,5,4,3,5,5,England,E12000008,South East
+E07000179,South Oxfordshire,10,10,10,9,10,9,5,7,10,10,England,E12000008,South East
+E07000180,Vale of White Horse,10,10,10,9,10,10,5,9,9,10,England,E12000008,South East
+E07000181,West Oxfordshire,10,10,10,8,9,10,5,9,10,10,England,E12000008,South East
+E07000187,Mendip,6,6,6,6,6,7,4,5,7,7,England,E12000009,South West
+E07000188,Sedgemoor,4,5,4,4,5,5,6,2,5,6,England,E12000009,South West
+E07000189,South Somerset,6,7,6,5,6,7,4,3,6,8,England,E12000009,South West
+E07000192,Cannock Chase,5,4,4,2,4,6,9,7,4,3,England,E12000005,West Midlands
+E07000193,East Staffordshire,5,6,6,4,4,6,8,2,6,6,England,E12000005,West Midlands
+E07000194,Lichfield,8,8,7,7,7,8,7,9,8,8,England,E12000005,West Midlands
+E07000195,Newcastle-under-Lyme,5,6,4,4,3,6,10,7,6,5,England,E12000005,West Midlands
+E07000196,South Staffordshire,8,7,7,7,7,7,8,6,8,7,England,E12000005,West Midlands
+E07000197,Stafford,8,8,7,8,6,8,6,7,8,9,England,E12000005,West Midlands
+E07000198,Staffordshire Moorlands,7,8,6,6,6,8,7,5,8,7,England,E12000005,West Midlands
+E07000199,Tamworth,4,4,4,2,3,4,7,9,4,3,England,E12000005,West Midlands
+E07000200,Babergh,7,8,8,6,9,7,2,5,8,8,England,E12000006,East
+E07000202,Ipswich,3,3,3,1,3,2,7,3,3,4,England,E12000006,East
+E07000203,Mid Suffolk,8,9,9,7,9,9,1,4,9,9,England,E12000006,East
+E07000207,Elmbridge,10,10,10,10,10,6,7,9,10,10,England,E12000008,South East
+E07000208,Epsom and Ewell,10,10,10,10,10,5,6,8,10,10,England,E12000008,South East
+E07000209,Guildford,10,10,10,9,10,8,5,7,9,10,England,E12000008,South East
+E07000210,Mole Valley,10,10,10,10,9,8,4,7,10,10,England,E12000008,South East
+E07000211,Reigate and Banstead,9,9,9,9,8,6,4,7,9,10,England,E12000008,South East
+E07000212,Runnymede,9,9,10,8,9,5,2,6,8,8,England,E12000008,South East
+E07000213,Spelthorne,7,8,9,6,8,4,2,4,7,9,England,E12000008,South East
+E07000214,Surrey Heath,10,10,10,10,9,9,5,10,10,10,England,E12000008,South East
+E07000215,Tandridge,9,10,9,8,8,4,4,6,9,10,England,E12000008,South East
+E07000216,Waverley,10,10,10,10,9,9,7,10,10,10,England,E12000008,South East
+E07000217,Woking,9,9,9,9,8,6,4,8,9,9,England,E12000008,South East
+E07000218,North Warwickshire,6,7,6,4,5,5,6,4,6,6,England,E12000005,West Midlands
+E07000219,Nuneaton and Bedworth,4,4,3,2,3,3,8,6,3,4,England,E12000005,West Midlands
+E07000220,Rugby,8,7,7,7,7,5,6,6,7,7,England,E12000005,West Midlands
+E07000221,Stratford-on-Avon,9,9,9,10,8,8,3,4,9,9,England,E12000005,West Midlands
+E07000222,Warwick,9,9,9,10,7,6,5,6,9,8,England,E12000005,West Midlands
+E07000223,Adur,6,6,5,3,5,7,8,5,6,5,England,E12000008,South East
+E07000224,Arun,5,6,5,4,4,6,3,8,6,6,England,E12000008,South East
+E07000225,Chichester,8,8,8,8,7,9,3,3,8,9,England,E12000008,South East
+E07000226,Crawley,5,5,7,3,5,4,2,8,5,4,England,E12000008,South East
+E07000227,Horsham,10,10,10,10,9,9,3,6,10,10,England,E12000008,South East
+E07000228,Mid Sussex,10,10,10,9,10,9,6,9,10,10,England,E12000008,South East
+E07000229,Worthing,6,6,5,6,5,7,9,2,7,6,England,E12000008,South East
+E07000234,Bromsgrove,9,9,8,9,7,6,7,9,9,9,England,E12000005,West Midlands
+E07000235,Malvern Hills,7,7,6,9,8,8,2,2,6,8,England,E12000005,West Midlands
+E07000236,Redditch,4,4,4,3,3,5,1,10,4,4,England,E12000005,West Midlands
+E07000237,Worcester,5,5,5,5,5,4,7,3,4,5,England,E12000005,West Midlands
+E07000238,Wychavon,7,7,7,6,8,7,2,4,7,8,England,E12000005,West Midlands
+E07000239,Wyre Forest,4,4,3,4,5,4,4,4,4,5,England,E12000005,West Midlands
+E07000240,St Albans,10,10,10,10,10,7,5,9,10,10,England,E12000006,East
+E07000241,Welwyn Hatfield,7,7,8,7,7,6,2,9,6,7,England,E12000006,East
+E07000242,East Hertfordshire,10,10,10,10,10,7,6,9,10,9,England,E12000006,East
+E07000243,Stevenage,5,5,5,4,5,3,3,9,4,4,England,E12000006,East
+E07000244,East Suffolk,5,5,4,4,6,7,6,4,5,7,England,E12000006,East
+E07000245,West Suffolk,6,8,8,4,6,7,1,8,8,8,England,E12000006,East
+E07000246,Somerset West and Taunton,5,6,5,6,5,6,3,3,6,6,England,E12000009,South West
+E08000001,Bolton,2,1,2,3,2,1,9,3,2,2,England,E12000002,North West
+E08000002,Bury,3,3,2,6,3,2,9,4,4,4,England,E12000002,North West
+E08000003,Manchester,1,1,2,3,1,1,2,2,1,1,England,E12000002,North West
+E08000004,Oldham,1,1,1,1,2,1,10,2,2,2,England,E12000002,North West
+E08000005,Rochdale,1,1,1,2,1,1,8,5,2,2,England,E12000002,North West
+E08000006,Salford,1,1,1,2,1,1,7,3,1,1,England,E12000002,North West
+E08000007,Stockport,5,5,4,6,3,3,10,5,6,5,England,E12000002,North West
+E08000008,Tameside,1,2,2,2,1,1,9,3,2,2,England,E12000002,North West
+E08000009,Trafford,7,6,5,9,5,5,10,5,7,5,England,E12000002,North West
+E08000010,Wigan,3,3,2,3,2,2,10,8,4,3,England,E12000002,North West
+E08000011,Knowsley,1,1,1,1,1,3,8,2,1,1,England,E12000002,North West
+E08000012,Liverpool,1,1,1,1,1,1,9,1,1,1,England,E12000002,North West
+E08000013,St. Helens,1,2,1,3,1,3,10,6,2,3,England,E12000002,North West
+E08000014,Sefton,2,2,1,5,1,5,10,3,3,3,England,E12000002,North West
+E08000015,Wirral,2,2,1,5,1,5,10,3,2,3,England,E12000002,North West
+E08000016,Barnsley,2,2,1,1,1,1,10,10,2,3,England,E12000003,Yorkshire and The Humber
+E08000017,Doncaster,2,2,2,1,2,1,9,8,2,3,England,E12000003,Yorkshire and The Humber
+E08000018,Rotherham,2,2,2,1,1,2,10,8,2,3,England,E12000003,Yorkshire and The Humber
+E08000019,Sheffield,2,2,3,2,2,2,8,5,2,2,England,E12000003,Yorkshire and The Humber
+E08000021,Newcastle upon Tyne,2,2,2,2,1,2,8,9,1,1,England,E12000001,North East
+E08000022,North Tyneside,4,3,2,5,3,4,9,10,4,3,England,E12000001,North East
+E08000023,South Tyneside,1,1,1,3,1,3,9,10,1,2,England,E12000001,North East
+E08000024,Sunderland,2,1,1,2,1,2,10,10,1,1,England,E12000001,North East
+E08000025,Birmingham,1,1,1,2,2,3,1,1,1,1,England,E12000005,West Midlands
+E08000026,Coventry,3,3,4,4,3,4,6,2,2,2,England,E12000005,West Midlands
+E08000027,Dudley,3,2,2,3,3,5,10,4,2,3,England,E12000005,West Midlands
+E08000028,Sandwell,1,1,1,1,2,3,6,1,1,1,England,E12000005,West Midlands
+E08000029,Solihull,6,6,5,6,6,6,6,8,5,6,England,E12000005,West Midlands
+E08000030,Walsall,1,1,2,1,2,3,8,3,1,2,England,E12000005,West Midlands
+E08000031,Wolverhampton,1,1,1,2,2,4,6,3,1,1,England,E12000005,West Midlands
+E08000032,Bradford,1,1,2,1,2,1,8,1,2,2,England,E12000003,Yorkshire and The Humber
+E08000033,Calderdale,3,3,3,5,3,1,10,1,3,4,England,E12000003,Yorkshire and The Humber
+E08000034,Kirklees,3,3,3,4,4,2,8,2,4,4,England,E12000003,Yorkshire and The Humber
+E08000035,Leeds,2,3,3,3,3,1,9,1,3,3,England,E12000003,Yorkshire and The Humber
+E08000036,Wakefield,2,3,2,1,2,1,9,8,3,4,England,E12000003,Yorkshire and The Humber
+E08000037,Gateshead,2,2,2,3,1,2,8,9,3,2,England,E12000001,North East
+E09000001,City of London,7,9,10,10,9,10,1,1,10,9,England,E12000007,London
+E09000002,Barking and Dagenham,1,1,3,4,4,1,1,2,1,1,England,E12000007,London
+E09000003,Barnet,6,5,7,10,10,4,1,3,7,3,England,E12000007,London
+E09000004,Bexley,6,6,7,6,8,5,2,5,5,6,England,E12000007,London
+E09000005,Brent,3,3,4,8,7,2,1,2,4,1,England,E12000007,London
+E09000006,Bromley,8,7,8,9,9,5,2,6,6,7,England,E12000007,London
+E09000007,Camden,5,3,5,9,8,3,5,2,3,1,England,E12000007,London
+E09000008,Croydon,4,4,5,7,6,3,1,3,3,3,England,E12000007,London
+E09000009,Ealing,4,3,5,8,6,3,1,2,4,1,England,E12000007,London
+E09000010,Enfield,3,2,4,5,7,3,1,3,2,2,England,E12000007,London
+E09000011,Greenwich,3,2,4,7,5,2,1,3,2,1,England,E12000007,London
+E09000012,Hackney,1,1,3,8,3,1,1,1,1,1,England,E12000007,London
+E09000013,Hammersmith and Fulham,4,3,5,10,5,2,2,1,3,1,England,E12000007,London
+E09000014,Haringey,2,2,3,6,5,1,1,1,2,1,England,E12000007,London
+E09000015,Harrow,7,5,8,10,10,6,1,5,7,3,England,E12000007,London
+E09000016,Havering,6,6,6,4,8,4,5,6,5,6,England,E12000007,London
+E09000017,Hillingdon,6,5,7,7,7,3,1,5,5,4,England,E12000007,London
+E09000018,Hounslow,4,4,6,8,6,2,1,2,4,2,England,E12000007,London
+E09000019,Islington,2,2,3,9,3,1,2,1,1,1,England,E12000007,London
+E09000020,Kensington and Chelsea,4,5,6,10,10,3,1,1,6,2,England,E12000007,London
+E09000021,Kingston upon Thames,9,8,9,10,10,7,3,3,9,6,England,E12000007,London
+E09000022,Lambeth,3,3,5,9,4,1,1,1,2,1,England,E12000007,London
+E09000023,Lewisham,2,2,4,8,4,2,1,1,2,1,England,E12000007,London
+E09000024,Merton,7,6,8,10,8,5,5,2,6,3,England,E12000007,London
+E09000025,Newham,2,2,5,6,5,2,1,2,3,1,England,E12000007,London
+E09000026,Redbridge,6,5,7,9,9,3,2,3,6,2,England,E12000007,London
+E09000027,Richmond upon Thames,10,9,10,10,10,5,8,3,10,8,England,E12000007,London
+E09000028,Southwark,3,2,4,9,4,2,1,1,1,1,England,E12000007,London
+E09000029,Sutton,8,7,7,9,8,6,5,4,7,6,England,E12000007,London
+E09000030,Tower Hamlets,2,1,4,7,4,2,1,2,1,1,England,E12000007,London
+E09000031,Waltham Forest,3,3,5,7,6,2,1,2,3,1,England,E12000007,London
+E09000032,Wandsworth,6,6,8,10,7,4,2,2,5,2,England,E12000007,London
+E09000033,Westminster,5,4,6,10,9,4,5,1,4,1,England,E12000007,London
 N09000001,Antrim and Newtownabbey,,,,,,,,,,,Northern Ireland,,
 N09000002,"Armagh City, Banbridge and Craigavon",,,,,,,,,,,Northern Ireland,,
 N09000003,Belfast,,,,,,,,,,,Northern Ireland,,
