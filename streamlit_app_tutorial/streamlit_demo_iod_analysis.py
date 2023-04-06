@@ -38,6 +38,7 @@ alt.themes.enable("nestafont")
 colours = NESTA_COLOURS
 # Load the favicon and set the page config (so what appears in the tab on your web browser)
 im = Image.open(f"{current_dir}/streamlit_app_tutorial/images/favicon.ico")
+
 st.set_page_config(page_title="IoD Deciles across England", layout="wide", page_icon=im)
 
 # Creates the Navigation bar on the side:
