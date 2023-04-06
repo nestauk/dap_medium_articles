@@ -37,7 +37,7 @@ alt.themes.enable("nestafont")
 
 colours = NESTA_COLOURS
 # Load the favicon and set the page config (so what appears in the tab on your web browser)
-im = Image.open(f"{current_dir}/images/favicon.ico")
+im = Image.open(f"{current_dir}/streamlit_app_tutorial/images/favicon.ico")
 st.set_page_config(page_title="IoD Deciles across England", layout="wide", page_icon=im)
 
 # Creates the Navigation bar on the side:
@@ -90,7 +90,7 @@ if choose == "About":
 
     with header:
         # How to add images:
-        nesta_logo = Image.open(f"{current_dir}/images/nesta_logo.png")
+        nesta_logo = Image.open(f"{current_dir}/streamlit_app_tutorial/images/nesta_logo.png")
         st.image(nesta_logo, width=250)
 
         # How to create a title for the page:
@@ -111,7 +111,7 @@ if choose == "About":
             """
     )
     with st.expander("Click for IoD graphic:"):
-        iod_graphic = Image.open(f"{current_dir}/images/iod_graphic.png")
+        iod_graphic = Image.open(f"{current_dir}/streamlit_app_tutorial/images/iod_graphic.png")
         st.image(iod_graphic)
 
         # How to add url hyperlinks:
