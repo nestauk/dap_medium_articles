@@ -37,6 +37,7 @@ alt.themes.enable("nestafont")
 
 colours = NESTA_COLOURS
 # Load the favicon and set the page config (so what appears in the tab on your web browser)
+# If you wish to run this app on your local machine, replace all {current_dir}/streamlit_app_tutorial/ with {current_dir}/
 im = Image.open(f"{current_dir}/streamlit_app_tutorial/images/favicon.ico")
 
 st.set_page_config(page_title="IoD Deciles across England", layout="wide", page_icon=im)
