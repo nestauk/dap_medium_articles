@@ -35,7 +35,7 @@ Replace all instances of `{current_dir}/streamlit_app_tutorial/` with `{current_
 
 `streamlit run streamlit_demo_iod_analysis.py`
 
-Alternatively if you want the app without the style choices, see `streamlit_demo_iod_analysis_without.py`.
+Alternatively if you want an to have a go using streamlit with some of the basics set up, see `streamlit_template.py`.
 
 ## About the data
 data:
