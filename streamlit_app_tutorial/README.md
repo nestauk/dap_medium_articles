@@ -30,6 +30,7 @@ If pip is not installed, install pip by `conda install pip`.
 6. **Open the `streamlit_demo_iod_analysis` file and have a read through!** 
 
 7. **Run the app on your local machine:**
+Replace all instances of `{current_dir}/streamlit_app_tutorial/` with `{current_dir}/`. Then run:
 `streamlit run streamlit_demo_iod_analysis.py`
 
 Alternatively if you want the app without the style choices, see `streamlit_demo_iod_analysis_without.py`.
