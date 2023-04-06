@@ -39,9 +39,13 @@ Alternatively if you want an to have a go using streamlit with some of the basic
 
 ## About the data
 data:
+
 IoD values for each English Local Authority (LA).
+
 IoD values for each English Lower Suport Output Area(LSOA).
 
 shapefiles: 
-LA shapefiles for the choropleth maps.
-LSOA shapefiles for the choropleth maps, broken down by region due to reduce file sizes.
+
+LA geographical boundaries for the choropleth maps.
+
+LSOA geographical boundaries for the choropleth maps, broken down by region due to reduce file sizes.
