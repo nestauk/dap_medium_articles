@@ -1,0 +1,9 @@
+pandas
+altair
+openpyxl
+numpy
+Pillow
+streamlit
+streamlit-option-menu
+geopandas
+matplotlib

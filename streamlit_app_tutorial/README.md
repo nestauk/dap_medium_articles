@@ -32,12 +32,13 @@ If pip is not installed, install pip by `conda install pip`.
 7. **Run the app on your local machine:**
 `streamlit run streamlit_demo_iod_analysis.py`
 
-Alternatively if you want the app without the style choices, see `streamlit_demo_iod_analysis_without`.
+Alternatively if you want the app without the style choices, see `streamlit_demo_iod_analysis_without.py`.
 
 ## About the data
 data:
-IoD values for each English LA and IoD values for each English LSOA.
+IoD values for each English Local Authority (LA).
+IoD values for each English Lower Suport Output Area(LSOA).
 
 shapefiles: 
-Local authority shapefiles for the choropleth maps. 
-LSOA shapefiles for the choropleth maps, broken down by region due to github size constraints. 
+LA shapefiles for the choropleth maps.
+LSOA shapefiles for the choropleth maps, broken down by region due to reduce file sizes.
