@@ -12,23 +12,29 @@ from getters.la_shapefiles_2019 import get_english_la_shapefiles_2019
 from getters.lsoa_shapefiles_2011 import get_english_lsoa_shapefiles_2011
 import os
 
+# Make sure to read the README.md file for this app before running this code.
+
 
 # Caches the data to prevent computation on every rerun
 @st.cache_data
 def get_data(suppress_st_warning=True):
+    """See the getters.english_la_iod_data_2019.py file for more information on this dataset."""
     return get_english_la_iod_2019()
 
 
 @st.cache_data
 def get_lsoa_data(suppress_st_warning=True):
+    """See the getters.english_lsoa_iod_data_2019.py file for more information on this dataset."""
     return get_english_lsoa_iod_2019()
 
 
 @st.cache_data
 def get_geo_data(suppress_st_warning=True):
+    """See the getters.la_shapefiles_2019.py file for more information on this dataset."""
     return get_english_la_shapefiles_2019()
 
 
+# Getting the current directory:
 current_dir = os.getcwd()
 
 # Creating the font/colours we use for the figures:
@@ -37,7 +43,7 @@ alt.themes.enable("nestafont")
 
 colours = NESTA_COLOURS
 # Load the favicon and set the page config (so what appears in the tab on your web browser)
-im = Image.open(f"{current_dir}/streamlit_app_tutorial/images/favicon.ico")
+im = Image.open(f"{current_dir}/images/favicon.ico")
 st.set_page_config(page_title="IoD Deciles across England", layout="wide", page_icon=im)
 
 # Creates the Navigation bar on the side:
@@ -90,7 +96,7 @@ if choose == "About":
 
     with header:
         # How to add images:
-        nesta_logo = Image.open(f"{current_dir}/streamlit_app_tutorial/images/nesta_logo.png")
+        nesta_logo = Image.open(f"{current_dir}/images/nesta_logo.png")
         st.image(nesta_logo, width=250)
 
         # How to create a title for the page:
@@ -111,7 +117,7 @@ if choose == "About":
             """
     )
     with st.expander("Click for IoD graphic:"):
-        iod_graphic = Image.open(f"{current_dir}/streamlit_app_tutorial/images/iod_graphic.png")
+        iod_graphic = Image.open(f"{current_dir}/images/iod_graphic.png")
         st.image(iod_graphic)
 
         # How to add url hyperlinks:
@@ -131,7 +137,7 @@ if choose == "About":
         "https://opendatacommunities.org/data/societal-wellbeing/imd2019/indices"
     )
     text_geography = "https://geoportal.statistics.gov.uk/search?collection=Dataset"
-    github_repo = "https://raw.githubusercontent.com/j-gillam/geographical_iod_analysis"  ###### CHANGE
+    github_repo = "https://github.com/nestauk/dap_medium_articles/tree/dev/streamlit_app_tutorial"  ###### CHANGE
     st.markdown(
         f"<div> These open datasets can be found on the <a href= {text_open_data}> Open Data Community </a> and from <a href= {text_geography}> Open Geography Portal </a> . See <a href= {github_repo}> here </a> for the github repository with the linked datasets and streamlit code for this app.</div>",
         unsafe_allow_html=True,
@@ -517,12 +523,13 @@ def streamlit_iod():
             )
 
 
-# This adds on the password protection
+# This section provides password protection for the app.
 pwd = st.sidebar.text_input("Password:", type="password")
 # st.secrets reads it in from the toml folder, and then runs the streamlit_iod function if the password matches.
 if pwd == st.secrets["PASSWORD"]:
     streamlit_iod()
+# To avoid the error message showing up on the first run, we have an if statement to check if the password is blank.
 elif pwd == "":
     pass
 else:
-    st.error("Password incorrect. Please try again.")
+    st.sidebar.error("Password incorrect. Please try again.")

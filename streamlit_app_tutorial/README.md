@@ -2,7 +2,7 @@
 
 This folder contains the code behind the [medium article]() with the example streamlit app.
 
-To see the live app, click this [link](), the password is `Nesta@IoD`.
+To see the live app, click this [link](https://dap-tutorial-geographical-iod-deciles.streamlit.app/), the password is `Nesta@IoD`.
 
 ## Set up 🛠️
 Open your terminal and follow the instructions:
@@ -15,7 +15,7 @@ Open your terminal and follow the instructions:
 `cd streamlit_app_tutorial`
 
 3. **Create your conda environment:** 
-
+ 
 `conda create --name streamlit_app_tutorial`
 
 4. **Activate your conda environment:** 
@@ -30,15 +30,21 @@ If pip is not installed, install pip by `conda install pip`.
 6. **Open the `streamlit_demo_iod_analysis` file and have a read through!** 
 
 7. **Run the app on your local machine:**
+
+Replace all instances of `{current_dir}/streamlit_app_tutorial/` with `{current_dir}/`. Then run:
+
 `streamlit run streamlit_demo_iod_analysis.py`
 
-Alternatively if you want the app without the style choices, see `streamlit_demo_iod_analysis_without.py`.
+Alternatively if you want an to have a go using streamlit with some of the basics set up, see `streamlit_template.py`.
 
 ## About the data
 data:
+
 IoD values for each English Local Authority (LA).
+
 IoD values for each English Lower Suport Output Area(LSOA).
 
-shapefiles: 
-LA shapefiles for the choropleth maps.
-LSOA shapefiles for the choropleth maps, broken down by region due to reduce file sizes.
+shapefiles (in another repository): 
+LA 2019 geographical boundaries for the choropleth maps.
+
+LSOA 2019 geographical boundaries for the choropleth maps, broken down by region due to reduce file sizes.

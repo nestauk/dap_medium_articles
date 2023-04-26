@@ -9,15 +9,19 @@ from utils.utils_fonts_colours import *
 from PIL import Image
 import os
 
+# Make sure to read the README.md file for this app before running this code.
+
 
 # Caches the data to prevent computation on every rerun
 @st.cache_data
 def get_data(suppress_st_warning=True):
+    """See the getters.english_la_iod_data_2019.py file for more information on this dataset."""
     return get_english_la_iod_2019()
 
 
 @st.cache_data
 def get_lsoa_data(suppress_st_warning=True):
+    """See the getters.english_lsoa_iod_data_2019.py file for more information on this dataset."""
     return get_english_lsoa_iod_2019()
 
 
@@ -175,12 +179,13 @@ def name_of_app():
             # Hint: you can use the code in the blog 'Vega-Altair - a surprisingly powerful Python library for plotting interactive maps' to recreate the example. See altair_interactive_charts_tutorial.ipynb.
 
 
-# This adds on the password protection
+# This section provides password protection for the app.
 pwd = st.sidebar.text_input("Password:", type="password")
 # st.secrets reads it in from the toml folder, and then runs the streamlit_iod function if the password matches.
 if pwd == st.secrets["PASSWORD"]:
     name_of_app()
+# To avoid the error message showing up on the first run, we have an if statement to check if the password is blank.
 elif pwd == "":
     pass
 else:
-    st.error("Password incorrect. Please try again.")
+    st.sidebar.error("Password incorrect. Please try again.")

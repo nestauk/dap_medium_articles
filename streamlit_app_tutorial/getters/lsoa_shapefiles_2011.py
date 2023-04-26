@@ -12,9 +12,8 @@ def get_english_lsoa_shapefiles_2011(region_name: str) -> alt.Data:
     Returns:
         alt.Data: Data for Altair to produce the choropleths in streamlit.
     """
-    geojson_lsoa = f"https://raw.githubusercontent.com/nestauk/dap_medium_articles/dev/streamlit_app_tutorial/shapefiles/lsoa_clean_shapefiles_2011_{region_name}_crs3857.geojson"
+    geojson_lsoa = f"https://raw.githubusercontent.com/nestauk/afs_neighbourhood_analysis//39_add_shapefiles/inputs/data/shapefiles/lsoa_clean_shapefiles_2011_{region_name}.geojson"
     geodata_lsoa = alt.Data(
         url=geojson_lsoa, format=alt.DataFormat(property="features", type="json")
     )
     return geodata_lsoa
-
