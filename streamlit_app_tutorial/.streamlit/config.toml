@@ -1,4 +1,12 @@
 # You can add the theme here:
 [theme]
-base="light"
-primaryColor="#18a48c"
+# Choosing the colour which outlines the widgets (i.e. the things in the selectors)
+primaryColor="#F63366"
+# Background colour of the app
+backgroundColor="#FFFFFF"
+# A secondary background colour (e.g. changes the colour of the sidebar)
+secondaryBackgroundColor="#F0F2F6"
+#Colour of the text
+textColor="#262730"
+# Change the font
+font="sans serif"

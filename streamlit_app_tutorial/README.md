@@ -15,7 +15,7 @@ Open your terminal and follow the instructions:
 `cd streamlit_app_tutorial`
 
 3. **Create your conda environment:** 
- 
+
 `conda create --name streamlit_app_tutorial`
 
 4. **Activate your conda environment:** 
@@ -45,6 +45,7 @@ IoD values for each English Local Authority (LA).
 IoD values for each English Lower Suport Output Area(LSOA).
 
 shapefiles (in another repository): 
+
 LA 2019 geographical boundaries for the choropleth maps.
 
 LSOA 2019 geographical boundaries for the choropleth maps, broken down by region due to reduce file sizes.

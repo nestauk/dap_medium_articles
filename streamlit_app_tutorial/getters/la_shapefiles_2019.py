@@ -11,8 +11,7 @@ def get_english_la_shapefiles_2019() -> alt.Data:
     Returns:
         alt.Data: Data for Altair to produce the choropleths in streamlit.
     """
-    geojson_la = f"https://raw.githubusercontent.com/nestauk/afs_neighbourhood_analysis//39_add_shapefiles/inputs/data/shapefiles/la_clean_shapefiles_2019.geojson"
-
+    geojson_la = f"https://raw.githubusercontent.com/nestauk/afs_neighbourhood_analysis/39_add_shapefiles/inputs/data/shapefiles/la_clean_shapefiles_2019.geojson"
     geodata_la = alt.Data(
         url=geojson_la, format=alt.DataFormat(property="features", type="json")
     )

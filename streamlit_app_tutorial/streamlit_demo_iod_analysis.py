@@ -43,7 +43,9 @@ alt.themes.enable("nestafont")
 
 colours = NESTA_COLOURS
 # Load the favicon and set the page config (so what appears in the tab on your web browser)
-im = Image.open(f"{current_dir}/images/favicon.ico")
+# If you wish to run this app on your local machine, replace all {current_dir}/streamlit_app_tutorial/ with {current_dir}/
+im = Image.open(f"{current_dir}/streamlit_app_tutorial/images/favicon.ico")
+
 st.set_page_config(page_title="IoD Deciles across England", layout="wide", page_icon=im)
 
 # Creates the Navigation bar on the side:
@@ -96,7 +98,7 @@ if choose == "About":
 
     with header:
         # How to add images:
-        nesta_logo = Image.open(f"{current_dir}/images/nesta_logo.png")
+        nesta_logo = Image.open(f"{current_dir}/streamlit_app_tutorial/images/nesta_logo.png")
         st.image(nesta_logo, width=250)
 
         # How to create a title for the page:
@@ -117,7 +119,7 @@ if choose == "About":
             """
     )
     with st.expander("Click for IoD graphic:"):
-        iod_graphic = Image.open(f"{current_dir}/images/iod_graphic.png")
+        iod_graphic = Image.open(f"{current_dir}/streamlit_app_tutorial/images/iod_graphic.png")
         st.image(iod_graphic)
 
         # How to add url hyperlinks:
@@ -137,7 +139,7 @@ if choose == "About":
         "https://opendatacommunities.org/data/societal-wellbeing/imd2019/indices"
     )
     text_geography = "https://geoportal.statistics.gov.uk/search?collection=Dataset"
-    github_repo = "https://github.com/nestauk/dap_medium_articles/tree/dev/streamlit_app_tutorial"  ###### CHANGE
+    github_repo = "https://github.com/nestauk/dap_medium_articles/tree/dev/streamlit_app_tutorial"
     st.markdown(
         f"<div> These open datasets can be found on the <a href= {text_open_data}> Open Data Community </a> and from <a href= {text_geography}> Open Geography Portal </a> . See <a href= {github_repo}> here </a> for the github repository with the linked datasets and streamlit code for this app.</div>",
         unsafe_allow_html=True,

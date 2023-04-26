@@ -11,7 +11,6 @@ import os
 
 # Make sure to read the README.md file for this app before running this code.
 
-
 # Caches the data to prevent computation on every rerun
 @st.cache_data
 def get_data(suppress_st_warning=True):

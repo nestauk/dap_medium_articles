@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def get_english_la_iod_2019() -> pd.DataFrame:
     """Pulling in the English Local Authority (LA) IoD data for 2019; with the England regions, LA codes/names
     and IoD deciles. The Deciles are of the Average LSOA Score for each LA. The lower the decile, the
