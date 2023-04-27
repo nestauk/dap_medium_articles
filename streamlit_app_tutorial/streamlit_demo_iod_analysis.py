@@ -14,28 +14,46 @@ import os
 
 # Make sure to read the README.md file for this app before running this code.
 
+# List of Regions in England
+region_filter = [
+    "North East",
+    "North West",
+    "Yorkshire and The Humber",
+    "East Midlands",
+    "West Midlands",
+    "South West",
+    "East",
+    "South East",
+    "London",
+]
+
 
 # Caches the data to prevent computation on every rerun
-@st.cache_data
-def get_data(suppress_st_warning=True):
+@st.cache_data(show_spinner="Loading Data")
+def get_data(region_filter=region_filter):
     """See the getters.english_la_iod_data_2019.py file for more information on this dataset."""
-    return get_english_la_iod_2019()
+    # We use the region_filter to only get the data for the regions we want to look at.
+    return get_english_la_iod_2019().query("region_name in @region_filter")
 
 
-@st.cache_data
-def get_lsoa_data(suppress_st_warning=True):
+@st.cache_data(show_spinner="Loading Data")
+def get_lsoa_data(region_filter=region_filter):
     """See the getters.english_lsoa_iod_data_2019.py file for more information on this dataset."""
-    return get_english_lsoa_iod_2019()
+    return get_english_lsoa_iod_2019().query("region_name in @region_filter")
 
 
-@st.cache_data
-def get_geo_data(suppress_st_warning=True):
+@st.cache_data(show_spinner="Loading Geo Data")
+def get_geo_data():
     """See the getters.la_shapefiles_2019.py file for more information on this dataset."""
     return get_english_la_shapefiles_2019()
 
 
 # Getting the current directory:
 current_dir = os.getcwd()
+# Streamlit cloud app is run from the dap_medium_articles folder, so we need to go into the streamlit_app_tutorial folder.
+if current_dir.endswith("dap_medium_articles"):
+    current_dir = current_dir + "/streamlit_app_tutorial"
+
 
 # Creating the font/colours we use for the figures:
 alt.themes.register("nestafont", nestafont)
@@ -43,8 +61,7 @@ alt.themes.enable("nestafont")
 
 colours = NESTA_COLOURS
 # Load the favicon and set the page config (so what appears in the tab on your web browser)
-# If you wish to run this app on your local machine, replace all {current_dir}/streamlit_app_tutorial/ with {current_dir}/
-im = Image.open(f"{current_dir}/streamlit_app_tutorial/images/favicon.ico")
+im = Image.open(f"{current_dir}/images/favicon.ico")
 
 st.set_page_config(page_title="IoD Deciles across England", layout="wide", page_icon=im)
 
@@ -98,7 +115,7 @@ if choose == "About":
 
     with header:
         # How to add images:
-        nesta_logo = Image.open(f"{current_dir}/streamlit_app_tutorial/images/nesta_logo.png")
+        nesta_logo = Image.open(f"{current_dir}/images/nesta_logo.png")
         st.image(nesta_logo, width=250)
 
         # How to create a title for the page:
@@ -111,15 +128,15 @@ if choose == "About":
     # You can use st.markdown to add text to the app:
     st.markdown(
         """
-            This app shows how open source data can be mapped geographically to look at deprivation levels across England.
-            We use the English indices of deprivation (IoD) published in 2019. The IoD are statistics on the relative
+            This app shows how open source data can be mapped geographically to look at deprivation levels across England. You must input the password (Nest@IoD) to access this app, 
+            if you don't input the password, the tabs will show up as blank. We use the English indices of deprivation (IoD) published in 2019. The IoD are statistics on the relative
             deprivation in small areas in England. Data is available at Local Authority (LA) and Lower Super Output Area (LSOA) level.
 
             The IoD dataset provides 10 indices, with the Index of Multiple Deprivation (IMD) being a combination of the indices shown in the graphic below.
             """
     )
     with st.expander("Click for IoD graphic:"):
-        iod_graphic = Image.open(f"{current_dir}/streamlit_app_tutorial/images/iod_graphic.png")
+        iod_graphic = Image.open(f"{current_dir}/images/iod_graphic.png")
         st.image(iod_graphic)
 
         # How to add url hyperlinks:
@@ -136,10 +153,12 @@ if choose == "About":
             """
     )
     text_open_data = (
-        "https://opendatacommunities.org/data/societal-wellbeing/imd2019/indices"
+        "https://opendatacommunities.org/def/concept/folders/themes/societal-wellbeing"
     )
     text_geography = "https://geoportal.statistics.gov.uk/search?collection=Dataset"
-    github_repo = "https://github.com/nestauk/dap_medium_articles/tree/dev/streamlit_app_tutorial"
+    github_repo = (
+        "https://github.com/nestauk/dap_medium_articles/tree/dev/streamlit_app_tutorial"
+    )
     st.markdown(
         f"<div> These open datasets can be found on the <a href= {text_open_data}> Open Data Community </a> and from <a href= {text_geography}> Open Geography Portal </a> . See <a href= {github_repo}> here </a> for the github repository with the linked datasets and streamlit code for this app.</div>",
         unsafe_allow_html=True,
@@ -150,23 +169,9 @@ if choose == "About":
 def streamlit_iod():
     # Sets a spinner so we know that the report is updating as we change the user selections.
     with st.spinner("Updating Report..."):
-        # Possible regions in England.
-        region_filter = [
-            "North East",
-            "North West",
-            "Yorkshire and The Humber",
-            "East Midlands",
-            "West Midlands",
-            "South West",
-            "East",
-            "South East",
-            "London",
-        ]
-
-        # # Possible IoD domains you want to look at.
         # Loading in the IoD data at LA and LSOA level for English regions.
-        data = get_data().query("region_name in @region_filter")
-        lsoa_data = get_lsoa_data().query("region_name in @region_filter")
+        data = get_data()
+        lsoa_data = get_lsoa_data()
 
         la_melt = (
             pd.melt(

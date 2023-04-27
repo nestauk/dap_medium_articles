@@ -11,15 +11,16 @@ import os
 
 # Make sure to read the README.md file for this app before running this code.
 
+
 # Caches the data to prevent computation on every rerun
-@st.cache_data
-def get_data(suppress_st_warning=True):
+@st.cache_data(show_spinner="Loading Data")
+def get_data():
     """See the getters.english_la_iod_data_2019.py file for more information on this dataset."""
     return get_english_la_iod_2019()
 
 
-@st.cache_data
-def get_lsoa_data(suppress_st_warning=True):
+@st.cache_data(show_spinner="Loading Geo Data")
+def get_lsoa_data():
     """See the getters.english_lsoa_iod_data_2019.py file for more information on this dataset."""
     return get_english_lsoa_iod_2019()
 
