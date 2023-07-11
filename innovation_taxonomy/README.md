@@ -37,4 +37,4 @@ dap_medium_articles\innovation_taxonomy\
 
 Launch the notebook `taxonomy_demo.ipynb` for a walkthrough of how to load and explore the three taxonomies described in the Medium article. 
 
-The functions provided in `getters.py` could be leveraged to build pipelines on top of any documents tagged with Wikipedia entities using the (DBPedia Spotlight)[https://www.dbpedia-spotlight.org/api] annotate api.
+The functions provided in `getters.py` could be leveraged to build pipelines on top of any documents tagged with Wikipedia entities using the [DBPedia Spotlight](https://www.dbpedia-spotlight.org/api) annotate api.
