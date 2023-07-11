@@ -27,6 +27,7 @@ dap_medium_articles\innovation_taxonomy\
     > data\
         > taxonomies\
         > group_names\
+    > README.md
     > requirements.txt
     > getters.py
     > taxonomy_demo.ipynb
