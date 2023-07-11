@@ -1,30 +1,40 @@
 # Building a Taxonomy of Innovation
 
-Basic code to interact and experiment with the taxonomies described in [this medium article on developing a taxonomy of research in the UK]().
+Code to interact and experiment with the taxonomies described in [this medium article on developing a taxonomy of research in the UK]().
 
-## Set up 🛠️
+## Setup 🛠️
 
 Open your terminal and follow the instructions:
 
 1. **Clone this repo:**
 
-`git clone https://github.com/nestauk/dap_medium_articles.git`
+    `git clone https://github.com/nestauk/dap_medium_articles.git`
 
 2. **Navigate to this tutorial's folder:**
 
-`cd innovation_taxonomy`
+    `cd innovation_taxonomy`
 
-3. **Download the data [here](s3://nesta-open-data/innovation_taxonomy/):**
+3. **Create a virtual or conda environment (using Python 3.9 🐍) and install required dependencies**
 
-Place the downloaded data within the `data` directory in this repository. Your project structure should look like this:
+    `pip install -r requirements.txt`
+   
+5. **Download the data from [here](https://nesta-open-data.s3.eu-west-2.amazonaws.com/innovation_taxonomy/data.zip):**
+
+    Unzip the folder within the project directory. Your project folder should now look like:
 
 ```
-dap_medium_articles\innovation_taxonomy\data\
-    > taxonomies\
-    > group_names\
+dap_medium_articles\innovation_taxonomy\
+    > data\
+        > taxonomies\
+        > group_names\
+    > requirements.txt
+    > getters.py
+    > taxonomy_demo.ipynb
 ```
 
-4. **Create a virtual or conda environment (using Python 3.9 🐍) and install required dependencies**
-   `pip install -r requirements.txt`
 
 ## Usage 💻
+
+Launch the notebook `taxonomy_demo.ipynb` for a walkthrough of how to load and explore the three taxonomies described in the Medium article. 
+
+The functions provided in `getters.py` could be leveraged to build pipelines on top of any documents tagged with Wikipedia entities using the (DBPedia Spotlight)[https://www.dbpedia-spotlight.org/api] annotate api.
