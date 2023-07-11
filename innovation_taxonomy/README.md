@@ -21,9 +21,10 @@ Place the downloaded data within the `data` directory in this repository. Your p
 ```
 dap_medium_articles\innovation_taxonomy\data\
     > taxonomies\
+    > group_names\
 ```
 
-4. **Create a virtual or conda environment and install required dependencies**
+4. **Create a virtual or conda environment (using Python 3.9 🐍) and install required dependencies**
    `pip install -r requirements.txt`
 
 ## Usage 💻
