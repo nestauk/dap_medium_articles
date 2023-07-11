@@ -22,7 +22,7 @@ def get_taxonomy(alg: str = "cooccurrence") -> pl.DataFrame:
             Level_3: "areas" - represented by up to three integers separated by _ (cast as string) (ex: '0_1_1')
             Level_4: "topics" - represented by up to four integers separated by _ (cast as string) (ex: '0_1_1_1')
             Level_5: "subtopics" - represented by up to five integers separated by _ (cast as string) (ex: '0_1_1_1_1')
-            "Entity": the Wikipedia entity being categorised
+            Entity: the Wikipedia entity being categorised
     """
     if alg == "cooccurrence":
         return pl.read_parquet("data/taxonomies/community_detection.parquet")
