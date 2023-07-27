@@ -34,7 +34,7 @@ def get_taxonomy(alg: str = "cooccurrence") -> pl.DataFrame:
         return pl.read_parquet("data/taxonomies/semantic_imbalanced.parquet")
 
 
-def get_group_names(level: int = 1, name_type: str = "chatgpt") -> Union[Dict[str, Dict[str, str]], Dict[str, str]]:
+def get_group_metadata(level: int = 1, name_type: str = "chatgpt") -> Union[Dict[str, Dict[str, str]], Dict[str, str]]:
     """Gets the names of a taxonomy at a given level using either the top 5 entities in documents in our training corpus or chatgpt (as described in the article.)
         Names are only provided for the co-occurrence taxonomy at the top 3 levels (disciplines, areas, domains).
 
@@ -54,5 +54,9 @@ def get_group_names(level: int = 1, name_type: str = "chatgpt") -> Union[Dict[st
                 key: taxonomy group label at the specified level (ex: '0' for level 1, '0_1' for level 2, etc.)
                 value: top 5 most frequent entities in the group (where counts come from count of documents containing that entity in our training corpus) 
     """
+    assert level in [
+        1, 2, 3], f"Invalid level argument {level}, Expected 1, 2, or 3."
+    assert name_type in [
+        "chatgpt", "entities"], f"Invalid name_type argument: {name_type}. Expected one of 'chatgpt', 'entities'."
     with open(f"data/group_names/{name_type}/level_{level}.json", "r") as f:
         return json.load(f)
