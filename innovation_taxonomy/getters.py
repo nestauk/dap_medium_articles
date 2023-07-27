@@ -24,6 +24,8 @@ def get_taxonomy(alg: str = "cooccurrence") -> pl.DataFrame:
             Level_5: "subtopics" - represented by up to five integers separated by _ (cast as string) (ex: '0_1_1_1_1')
             Entity: the Wikipedia entity being categorised
     """
+    assert alg in ["cooccurrence", "centroids",
+                   "imbalanced"], f"Invalid alg argument: {alg}. Expected one of 'cooccurrence', 'centroids', or 'imbalanced'."
     if alg == "cooccurrence":
         return pl.read_parquet("data/taxonomies/community_detection.parquet")
     elif alg == "centroids":
