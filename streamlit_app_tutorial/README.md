@@ -1,6 +1,6 @@
 # Creating a Streamlit app using Python
 
-This folder contains the code behind the [medium article]() with the example streamlit app.
+This folder contains the code behind the [medium article](https://medium.com/data-analytics-at-nesta/creating-interactive-dashboards-in-python-a-tutorial-using-streamlit-84ec94033a32) with the example streamlit app.
 
 To see the live app, click this [link](https://dap-tutorial-geographical-iod-deciles.streamlit.app/), the password is `Nesta@IoD`.
 
